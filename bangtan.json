@@ -1,0 +1,301 @@
+{
+  "items": [],
+  "cart": [],
+  "users": [
+    {
+      "id": 1,
+      "username": "Julia",
+      "password": "Julia",
+      "email": "Julia",
+      "token": ""
+    }
+  ],
+  "members": [
+    {
+      "img": "assets/img/BE/be_rm1.jpg",
+      "img2": "assets/img/BE/be_rm2.jpg",
+      "id": 1,
+      "name": "Kim Namjoon",
+      "stageName": "RM",
+      "born": "September 12, 1994",
+      "age": 27,
+      "occupation": "Rapper, songwriter, record producer",
+      "position": "Leader, Main Rapper",
+      "info": "info"
+    },
+    {
+      "img": "assets/img/BE/be_jin1.jpg",
+      "img2": "assets/img/BE/be_jin2.jpg",
+      "id": 2,
+      "name": "Kim Seokjin",
+      "stageName": "Jin",
+      "born": "December 4, 1992",
+      "age": 29,
+      "occupation": "Singer, songwriter",
+      "position": "Sub Vocalist, Visual",
+      "info": "info"
+    },
+    {
+      "img": "assets/img/BE/be_suga1.jpg",
+      "img2": "assets/img/BE/be_suga2.jpg",
+      "id": 3,
+      "name": "Min Yoongi",
+      "stageName": "SUGA, Agust D",
+      "born": "March 9, 1993",
+      "age": 28,
+      "occupation": "Rapper, songwriter, record producer",
+      "position": "Lead Rapper",
+      "info": "info"
+    },
+    {
+      "img": "assets/img/BE/be_jhope1.jpg",
+      "img2": "assets/img/BE/be_jhope2.jpg",
+      "id": 4,
+      "name": "Jung Hoseok",
+      "stageName": "J-Hope",
+      "born": "February 18, 1994 ",
+      "age": 27,
+      "occupation": "Rapper, singer, songwriter, dancer, record producer",
+      "position": "Main Dancer, Sub Rapper",
+      "info": "info"
+    },
+    {
+      "img": "assets/img/BE/be_jimin1.jpg",
+      "img2": "assets/img/BE/be_jimin2.jpg",
+      "id": 5,
+      "name": "Park Jimin",
+      "stageName": "Jimin",
+      "born": "October 13, 1995",
+      "age": 26,
+      "occupation": "Singer, dancer",
+      "position": "Main Dancer, Lead Vocalist",
+      "info": "info"
+    },
+    {
+      "img": "assets/img/BE/be_v1.jpg",
+      "img2": "assets/img/BE/be_v2.jpg",
+      "id": 6,
+      "name": "Kim Taehyung",
+      "stageName": "V",
+      "born": "December 30, 1995",
+      "age": 26,
+      "occupation": "Singer, songwriter",
+      "position": "Lead Dancer, Sub Vocalist, Visual",
+      "info": "info"
+    },
+    {
+      "img": "assets/img/BE/be_jk1.jpg",
+      "img2": "assets/img/BE/be_jk2.jpg",
+      "id": 7,
+      "name": "Jeon Jungkook",
+      "stageName": "Jungkook",
+      "born": "September 1, 1997",
+      "age": 24,
+      "occupation": "Singer",
+      "position": "Main Vocalist, Lead Dancer",
+      "info": "info"
+    }
+  ],
+  "albums": [
+    {
+      "id": 1,
+      "albumTitle": "BE",
+      "albumImg": "assets/img/album covers/be.jpg",
+      "info": "BTS is returning with their new album BE to unfold another chapter of 2020. As a sense of helplessness looms in every corner of the world, BTS opens themselves up to express their mixed feelings about this situation—fear and anxiety mingled with the determination to overcome all this. The album consists of a total of eight tracks including the No.1 summer hit “Dynamite” and lead single “Life Goes On”. The latter speaks on behalf of everyone stuck in the new normality brought on by COVID-19: one day, the world stopped without any warning, streets erased of footsteps and the way out is nowhere near in sight. BTS echoes in a low voice the comforting message that in the face of unexpected turns “Life Goes On” and extends their hands towards the future.",
+      "trackList": [
+        {
+          "songId": 1,
+          "songTitle": "Life Goes On",
+          "songLength": "3:27"
+        },
+        {
+          "songId": 2,
+          "songTitle": "Fly To My Room",
+          "songLength": "3:42"
+        },
+        {
+          "songId": 3,
+          "songTitle": "Blue & Grey",
+          "songLength": "4:15"
+        },
+        {
+          "songId": 4,
+          "songTitle": "Skit",
+          "songLength": "3:00"
+        },
+        {
+          "songId": 5,
+          "songTitle": "Telepathy",
+          "songLength": "3:22"
+        },
+        {
+          "songId": 6,
+          "songTitle": "Dis-ease",
+          "songLength": "4:00"
+        },
+        {
+          "songId": 7,
+          "songTitle": "Stay",
+          "songLength": "3:25"
+        },
+        {
+          "songId": 8,
+          "songTitle": "Dynamite",
+          "songLength": "3:19"
+        }
+      ],
+      "conceptPhotos": {
+        "img1": "/assets/img/BE/be_group.jpg",
+        "img2": "assets/img/BE/be_jhope1.jpg "
+      }
+    },
+    {
+      "id": 2,
+      "albumTitle": "MAP OF THE SOUL : 7",
+      "albumImg": "assets/img/album covers/mots7.jpg",
+      "info": "BTS Releases 4th Studio Album “MAP OF THE SOUL : 7”! A heartfelt story of BTS and their search for their “real selves” BTS will release their fourth studio album “MAP OF THE SOUL : 7” on February 21. Unveiled last year, the MAP OF THE SOUL series contains the honest and heartfelt story of BTS and their journey of discovering their true selves. The first chapter of this story, “MAP OF THE SOUL : PERSONA”, sang about the world and the joy of love, and the discovery of the self as it is displayed to the world; “MAP OF THE SOUL : 7” now turns inward to the shadow within in a candid acknowledgement that it, too, is part of the self. “MAP OF THE SOUL : 7” looks back on the past seven years of BTS since their debut as seven members of one team. The journey was not always smooth sailing, and there were special travails that they had to endure in their rise as global superstars. Now, understanding that the scars left by those hardships is a part of their real selves, BTS accepts both “the self I want to show” and the “self I want to scorn” to at last tell their own story of finding their “real and complete selves”. Bridging fine art and popular art through such initiatives as the global art project CONNECT, BTS and the “Black Swan” art film featuring a modern dance interpretation of the early-release track, BTS is poised to show their latest growth as artist through “MAP OF THE SOUL : 7”.",
+      "trackList": [
+        {
+          "songId": 1,
+          "songTitle": "Intro : Persona ",
+          "songLength": "2:54"
+        },
+        {
+          "songId": 2,
+          "songTitle": "Boy With Luv (Feat. Halsey) ",
+          "songLength": "3:49"
+        }
+      ],
+      "conceptPhotos": {
+        "img1": "",
+        "img2": ""
+      }
+    },
+    {
+      "id": 3,
+      "albumTitle": "MAP OF THE SOUL : PERSONA",
+      "albumImg": "assets/img/album covers/mots_persona.jpg",
+      "info": "BTS’ MAP OF THE SOUL : PERSONA GLOBAL ICON BTS POURS OUT THEIR HEARTS TO FANS FINDING JOY IN LOVE AND REACHING OUT TO THE WORLD THROUGH THE LEAD SINGLE ‘Boy With Luv (Feat. Halsey)’ BTS signals the beginning of a brand new story with the release of their newest EP MAP OF THE SOUL : PERSONA on April 12. As global superstars who play stadiums and are loved by countless fans across the world, BTS now looks to shape the future reflecting on and using the power they have gained while embracing all its shadows. Opening the MAP OF THE SOUL series with PERSONA, BTS talks about the joy in finding love, and reaches out to the world with the messages they want to share with their fans. The band is especially curious about the stories of each and everyone who have helped them become who they are today. There are a total of seven tracks in this album, through which BTS weaves together what they genuinely felt both within themselves and the ever-widening world around them. Through RM’s solo piece ‘Intro : Persona’, BTS asks the fundamental question: ‘Who am I?’. World-leading singer Halsey takes part as featured artist in the lead single ‘Boy With Luv (Feat. Halsey)’ where BTS talks about how true strength and love come from finding joy in the little things in life and reaching out to the world. The album includes ‘Mikrokosmos’ which paints the world around oneself through human interest and the collaboration with world-famous singer-songwriter Ed Sheeran, ‘Make It Right’. In ‘HOME’, BTS finds refuge from their hardships and loneliness where their fans are. ‘Jamais Vu’ is a unit song by j-hope, Jin, Jung Kook and ‘Dionysus’ is a signature BTS hip hop track blasting ad-libs and powerful beats from start to finish.",
+      "trackList": [
+        {
+          "songId": 1,
+          "songTitle": "Intro : Persona ",
+          "songLength": "2:54"
+        },
+        {
+          "songId": 2,
+          "songTitle": "Boy With Luv (Feat. Halsey) ",
+          "songLength": "3:49"
+        }
+      ],
+      "conceptPhotos": {
+        "img1": "",
+        "img2": ""
+      }
+    },
+    {
+      "id": 4,
+      "albumTitle": "LOVE YOURSELF結‘ANSWER’",
+      "albumImg": "assets/img/album covers/lysa.jpg",
+      "info": "BTS, LOVE YOURSELF 結 ‘ANSWER’ “Loving oneself is where true love begins” A celebration with the ARMY First unveiled in March of 2016, the BTS LOVE YOURSELF series creates a narrative by linking the key songs in each album into a single theme, imparting the message that “loving yourself is true love”. Like a well-written novel having introduction, development, twists, and conclusion it shared a compelling story for two and a half years.‘ANSWER’ is the final piece of the puzzle. Though it’s a repackaged album, LOVE YOURSELF 結 ‘ANSWER’ still includes seven brand-new tracks. CD A is a concept album, its sixteen tracks all connected lyrically to highlight BTS’ prowess as both artists and storytellers.",
+      "trackList": [
+        {
+          "songId": 1,
+          "songTitle": "Euphoria",
+          "songLength": "3:49"
+        },
+        {
+          "songId": 2,
+          "songTitle": "Trivia 起 : Just Dance",
+          "songLength": "3:45"
+        }
+      ],
+      "conceptPhotos": {
+        "img1": "",
+        "img2": ""
+      }
+    },
+    {
+      "id": 5,
+      "albumTitle": "LOVE YOURSELF轉‘TEAR’",
+      "albumImg": "assets/img/album covers/lyst.jpg",
+      "info": "BTS releases third studio album LOVE YOURSELF 轉 ‘TEAR’ Fake love inevitably leads to loss and separation, For true love can only begin when you learn to love yourself BTS will release LOVE YOURSELF 轉 ‘TEAR’, their third studio album on May 18. BTS’ LOVE YOURSELF series bears the message that loving oneself is the beginning of true love. Whereas the previously unveiled LOVE YOURSELF 起 ‘WONDER’ and LOVE YOURSELF 承 ‘HER’ albums expressed the heart-fluttering and tingling moments of love, LOVE YOURSELF 轉 ‘TEAR’ album embodies the pain of boys faced with parting.",
+      "trackList": [
+        {
+          "songId": 1,
+          "songTitle": "Intro : Singularity",
+          "songLength": "3:14"
+        },
+        {
+          "songId": 2,
+          "songTitle": "FAKE LOVE ",
+          "songLength": "4:06"
+        }
+      ],
+      "conceptPhotos": {
+        "img1": "",
+        "img2": ""
+      }
+    }
+  ],
+  "shows": [
+    {
+      "id": 1,
+      "img": "assets/img/shows/run-bts.jpg",
+      "title": "Run BTS!",
+      "info": "Run BTS is a variety web series. The series broadcasts weekly and has been offered for free viewing on V Live since 2015 and on Weverse since 2020. In each episode, the band members play games or participate in a variety of activities that require them to complete challenges, and sometimes carry out secret missions, in order to earn prizes or receive punishments.",
+      "links": [
+        {
+          "linkId": 1,
+          "link": ""
+        },
+        {
+          "linkId": 2,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "img": "assets/img/shows/bon_voyage.jpg",
+      "title": "Bon Voyage",
+      "info": "Bon Voyage is a travel reality show. The concept for the show involves the BTS members traveling and visiting various countries around the world. Through the show, fans get to see their adventure and how they handle any obstacles throughout the journey. In Season 1, the members  traveled to Norway and Sweden. In Season 2, BTS went to the exotic island, Hawaii. This trip was a reward for successfully wrapping their American tour. In Bon Voyage Season 3, BTS went to Malta. And Season 4 took place in New Zealand.",
+      "links": [
+        {
+          "linkId": 1,
+          "link": ""
+        },
+        {
+          "linkId": 2,
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "img": "assets/img/shows/in_the_soop.jpg",
+      "title": "In the Soop",
+      "info": " In the Soop features the band taking a break from their busy lives in the city to spend a week together at a remote forest location where they relax and engage in various hobbies. A second season premiered on October 15, 2021, follows the band as they spend four days at a private villa in the mountains.",
+      "links": [
+        {
+          "linkId": 1,
+          "link": ""
+        },
+        {
+          "linkId": 2,
+          "link": ""
+        }
+      ]
+    }
+  ],
+  "list": [
+    {
+      "listItemid": 0,
+      "listItem": "dfg"
+    },
+    {
+      "listItemid": 1,
+      "listItem": "afg"
+    }
+  ]
+}

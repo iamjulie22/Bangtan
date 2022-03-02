@@ -1,0 +1,52 @@
+.member_info{
+   width: 80%;
+   margin-top: 2%;
+   height: 1000px;
+}
+
+.member_photo{
+   width: 40%;
+   float: left;
+}
+
+.member_stageName{
+   color: white;
+}
+
+.member_info_text{
+   margin-left: 45%;
+   color: #bababa;
+   font-size: 25px;
+}
+
+.details_list{
+   margin-top: 5%;
+   font-size: 25px;
+   color: #bababa;
+}
+
+ul li{
+  list-style: none;
+}
+
+.solo_work_title{
+   color: white;
+   font-family: 'Domine', serif;
+   margin-top: 5%;
+}
+
+p{
+   color: #bababa;
+   font-size: 25px;
+}
+
+.arrow{
+  margin-top: 2%;
+  margin-left: 3%;
+  color: #bababa;
+  font-size: 200%;
+}
+
+.arrow:hover{
+   cursor: pointer;
+}

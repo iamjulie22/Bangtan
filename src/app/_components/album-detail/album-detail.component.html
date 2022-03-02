@@ -1,0 +1,27 @@
+<div *ngIf="album">
+    <ion-icon name="arrow-back-outline" class="arrow" (click)="goBack()"></ion-icon>
+    <div class="container-fluid album_info">
+        <div class="row">
+            <div class="col">
+                <img src="{{album.albumImg}}" alt="{{album.albumTitle}}" class="album_photo">
+                <div class="album_info_text">
+                    <h1 class="album_title" (click)="addOnClick(album.albumTitle)">{{album.albumTitle}}</h1>
+                    <p>{{album.info}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="container d-flex justify-content-center test">
+            <div class="row test2">
+                <div class="col details_list ">
+                    <h1 class="tracks">TRACKS</h1>
+                    <ul *ngFor="let tracklist of album.trackList">
+                        <li><span class="song_id">{{tracklist.songId}}</span><span
+                                class="song_title">{{tracklist.songTitle}}</span><span
+                                class="song_length">{{tracklist.songLength}}</span></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!--YT Links-->
+    </div>
+</div>

@@ -1,0 +1,17 @@
+.album_img{
+    width: 100%;
+ 
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+.grid-container div{
+    text-align: center;
+    margin-left: 5%;
+    margin-top: 5%;
+}

@@ -1,0 +1,25 @@
+.show_img{
+    width:30%;
+    float: left;
+}
+
+.show_title{
+    color: white;
+}
+
+.show_info{
+    color: #bababa;
+    font-size: 25px;
+}
+
+.placed_right_show{
+    float: right;
+    width:30%;
+}
+
+.show_disc{
+    margin-top: 5%;
+}
+.show_disc2{
+    margin-top: 25%;
+}

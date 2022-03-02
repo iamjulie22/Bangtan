@@ -1,0 +1,22 @@
+<div *ngIf="shows">
+    <div class="container" *ngFor="let show of shows">
+        <div class="row">
+            <div class="col">
+                <div *ngIf="show.id%2!==0" class="show_disc">
+                    <h1 class="show_title">{{show.title}}</h1>
+                    <img [src]="show.img" [alt]="show.title" class="show_img">
+                    <p class="show_info">{{show.info}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div *ngIf="show.id%2==0" class="show_disc2">
+                    <h1 class="show_title">{{show.title}}</h1>
+                    <img [src]="show.img" [alt]="show.title" class="placed_right_show">
+                    <p class="show_info">{{show.info}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

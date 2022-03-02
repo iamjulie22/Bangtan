@@ -1,0 +1,134 @@
+
+@import "~bootstrap/dist/css/bootstrap.css";
+.main {
+    -webkit-box-shadow: 5px 5px 30px 1px #000000;
+    box-shadow: 5px 5px 30px 1px #000000;
+}
+
+/*Navbar*/
+
+.nav_items {
+    position: absolute;
+    margin:auto;
+    top: 10%;
+    
+}
+
+nav {
+    overflow: hidden;
+    background-color: transparent;
+}
+
+nav a {
+    float: left;
+    color: #bababa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: 'Domine', serif;
+}
+
+nav a:hover {
+    color: grey;
+}
+
+.band_name {
+    color: white;
+    font-family: 'Domine', serif;
+    margin-top: 5%;
+}
+
+.about_bts {
+    color: #bababa;
+    font-size: 25px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+/*Social Media List*/
+
+.social_media_contaeiner{
+    margin-top: 50px;
+    height: 450px;
+}
+.gq_photo {
+    width: 25%;
+    float: right;
+    margin-bottom: 20px;  
+    -webkit-box-shadow: 5px 5px 30px 1px #000000;
+    box-shadow: 5px 5px 30px 1px #000000;
+}
+
+.list{
+    float: right;
+    /* top: 5%; */
+}
+
+.sm_list_title{
+    color: #bababa;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+ul{
+    margin-right: 10px;
+}
+ul li{
+    list-style: none;
+    color: #bababa;
+    font-size: 25px;
+}
+
+ul li:hover{
+    text-decoration: underline #bababa;
+}
+
+/*Youtube video*/
+
+.yt_video{
+    margin-left: 3%;
+    margin-top: 3%;
+}
+
+iframe{
+    border: none;
+}
+
+/*Hr*/
+
+hr{
+    height: 1px;
+    color:#bababa;
+    background-color: #bababa;
+    margin-top: 35px;
+}
+
+.second_hr{
+    position: relative;
+    top: 100%;
+    height: 1px;
+    color:#bababa;
+    background-color: #bababa;
+    margin-top: 30px;
+}
+
+/*Label info*/
+
+.BM_title{
+    margin-top: 5%;
+    color: white;
+    font-family: 'Domine', serif;
+}
+
+.about_bm{
+    color: #bababa;
+    font-size: 24px;
+    text-align: justify;
+    text-indent: 50px;
+}
+
+.info_of_label{
+    height: 300px;
+}

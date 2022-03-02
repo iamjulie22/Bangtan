@@ -1,0 +1,5 @@
+<div class="grid-container justify-content-center" *ngIf="albums">
+    <div *ngFor="let album of albums">
+        <a routerLink="/album-detail/{{album.id}}"><img [src]="album.albumImg" [alt]="album.albumTitle" class="album_img"></a>
+    </div>
+</div>

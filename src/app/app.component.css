@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
+
+.title_div {
+  background-color: rgba(0, 0, 0, 0.2);
+  height: 40px;
+}
+
+.title {
+  margin-top: 0.5%;
+  color: #fbf2fc;
+  font-family: 'Domine', serif;
+  font-size: 150%;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.login_register {
+  left: 88%;
+  position: absolute;
+  vertical-align: middle;
+}
+
+.nav-link{
+  color: #bababa;
+  font-family: 'Domine', serif;
+}
+
+ion-icon{
+  font-size: 120%;
+}
+
+.acc{
+ margin-right: 0;
+}
+
+.hidden {
+  height: 41px;
+}
+
+.du_button {
+  width: 300%;
+  float: rights;
+  border: white solid 2px;
+  color: white;
+}
+
+.du_button:hover{
+  background-color: white;
+  color: black;
+}
+
+.du_button:focus{
+box-shadow: none !important;
+background-color: white;
+border: white;
+color: black;
+}
+
+.du_button:active{
+box-shadow: none !important;
+background-color: white !important;
+border: white;
+color: black !important;
+}
+
+
+.du {
+  float: right;
+  right: 13%;
+ 
+}
+
+.du_list {
+  width: 300%;
+}
+
+span {
+  margin-right: 5%;
+}

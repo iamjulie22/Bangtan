@@ -1,0 +1,45 @@
+<div *ngIf="member">
+  <ion-icon name="arrow-back-outline" class="arrow" (click)="goBack()"></ion-icon>
+  <div class="container-fluid member_info">
+    <div class="row">
+      <div class="col">
+        <img src="{{member.img2}}" alt="{{member.name}}" class="member_photo">
+        <div class="member_info_text">
+          <h1 class="member_stageName">{{member.stageName}}</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati mollitia veritatis vero dolore! Quas
+            officia
+            obcaecati voluptas. Quisquam repudiandae nemo amet sint cupiditate accusantium vitae nesciunt impedit,
+            officiis,
+            repellat temporibus!</p>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati mollitia veritatis vero dolore! Quas
+            officia
+            obcaecati voluptas. Quisquam repudiandae nemo amet sint cupiditate accusantium vitae nesciunt impedit,
+            officiis,
+            repellat temporibus!</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="details_list">
+          <ul>
+            <li>Name: {{member.name}}</li>
+            <li>Stage name: {{member.stageName}}</li>
+            <li>Born: {{member.born}}</li>
+            <li>Age: {{member.age}}</li>
+            <li>Occupation: {{member.occupation}}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <h1 class="solo_work_title">Solo Works</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus atque eveniet quis officia obcaecati
+          pariatur natus esse eaque itaque non voluptatem tempora amet id similique, architecto minima nulla vel saepe?
+        </p>
+        <!--YT Links-->
+      </div>
+    </div>
+  </div>
+</div>
