@@ -1,0 +1,52 @@
+.chat{
+    background-color: #bababa;
+    margin-top: 3%;
+    height: 70%;
+    border-radius: 0.4rem;
+    padding: 1%;
+}
+
+li {
+    /* height: 300%;
+    background-color: white;
+    border-radius: 0.4rem;
+    list-style: none;
+    width: 50%; */
+    
+}
+
+#urn{
+    text-align: right;
+    padding-right: 1%;
+}
+#msg{
+    padding-left: 1%;
+}
+
+.loggedIn_msg{
+    height: 300%;
+    background-color: white;
+    border-radius: 0.4rem;
+    list-style: none;
+    width: 50%;
+    /* float: right; */
+}
+
+.NotloggedIn_msg{
+    height: 300%;
+    background-color: grey;
+    border-radius: 0.4rem;
+    list-style: none;
+    width: 50%;
+    /* float: left; */
+}
+
+.input_message{
+    width: 50%;
+}
+
+ion-icon{
+    color: white;
+}
+
+

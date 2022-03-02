@@ -19,7 +19,7 @@ nav {
     background-color: transparent;
 }
 
-nav a {
+.nav_a {
     float: left;
     color: #bababa;
     text-align: center;
@@ -31,6 +31,10 @@ nav a {
 
 nav a:hover {
     color: grey;
+}
+
+.chat{
+    color: #bababa;
 }
 
 .band_name {

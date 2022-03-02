@@ -8,6 +8,13 @@
       "password": "Julia",
       "email": "Julia",
       "token": ""
+    },
+    {
+      "id": 2,
+      "username": "Zoltán",
+      "password": "Zoltán",
+      "email": "Zoltán",
+      "token": ""
     }
   ],
   "members": [
@@ -296,6 +303,28 @@
     {
       "listItemid": 1,
       "listItem": "afg"
+    }
+  ],
+  "messages": [
+    {
+      "id": 0,
+      "username": "Julia",
+      "message": "HI!"
+    },
+    {
+      "username": "Julia",
+      "message": "alma",
+      "id": 2
+    },
+    {
+      "username": "Julia",
+      "message": "Szép",
+      "id": 3
+    },
+    {
+      "username": "Julia",
+      "message": "sd",
+      "id": 4
     }
   ]
 }

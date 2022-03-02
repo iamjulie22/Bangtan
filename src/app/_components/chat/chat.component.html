@@ -1,1 +1,18 @@
-<p>chat works!</p>
+<div class="container chat" >
+    <ul *ngFor="let message of messages" class="msg_div">
+        <li *ngIf="this.authService.username" class="loggedIn_msg">
+            <p id="urn">{{message.username}}</p>
+            <p id="msg">{{message.message}}</p>      
+        </li>
+        <li *ngIf="!this.authService.username" class="NotloggedIn_msg">
+            <p id="urn">{{message.username}}</p>
+            <p id="msg">{{message.message}}</p>      
+        </li>
+    </ul>
+    <form [formGroup]="messageForm" (ngSubmit)="onSubmit()" class="container fixed-bottom input_message">
+        <div class="form-group ">
+            <input type="text" class="form-control"  required  formControlName="message" placeholder="Type something...">
+            <ion-icon name="send-outline" class="btn" type="submit"></ion-icon>
+        </div>
+    </form>
+</div>
