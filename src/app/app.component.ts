@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import ListItem from './_models/listItem';
+import { ListItem } from './_models/listItem';
 import { AuthService } from './_services/auth.service';
 import { ListService } from './_services/list.service';
 

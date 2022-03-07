@@ -1,4 +1,4 @@
-export default interface Album {
+export interface Album {
   id:number;
   albumTitle: string;
   albumImg:string;

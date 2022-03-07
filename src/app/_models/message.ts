@@ -1,4 +1,4 @@
-export default interface Message {
+export interface Message {
     id?:number;
     username:string;
     message:string;

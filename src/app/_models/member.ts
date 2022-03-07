@@ -1,4 +1,4 @@
-export default interface Member {
+export interface Member {
     img:string;
     img2:string;
     id:number;

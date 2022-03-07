@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import Message from 'src/app/_models/message';
+import { Message } from 'src/app/_models/message';
 import { AuthService } from 'src/app/_services/auth.service';
 import { ChatService } from 'src/app/_services/chat.service';
 

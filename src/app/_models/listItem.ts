@@ -1,4 +1,4 @@
-export default interface ListItem {
-    listItemid?: number;
+export interface ListItem {
+    id?: number;
     listItem: string;
 }

@@ -4,15 +4,7 @@
     height: 70%;
     border-radius: 0.4rem;
     padding: 1%;
-}
-
-li {
-    /* height: 300%;
-    background-color: white;
-    border-radius: 0.4rem;
-    list-style: none;
-    width: 50%; */
-    
+    overflow: auto;
 }
 
 #urn{
@@ -24,21 +16,22 @@ li {
 }
 
 .loggedIn_msg{
-    height: 300%;
     background-color: white;
     border-radius: 0.4rem;
     list-style: none;
-    width: 50%;
-    /* float: right; */
+    width: 40%;
+    float: bottom;
+
 }
 
 .NotloggedIn_msg{
-    height: 300%;
     background-color: grey;
     border-radius: 0.4rem;
     list-style: none;
-    width: 50%;
-    /* float: left; */
+    width: 40%;
+    float: top;
+    margin:25px;
+
 }
 
 .input_message{

@@ -1,10 +1,10 @@
 import { Component, HostListener, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import Album from 'src/app/_models/album';
-import ListItem from 'src/app/_models/listItem';
 import { AlbumService } from 'src/app/_services/album.service';
 import { ListService } from 'src/app/_services/list.service';
 import { Location } from '@angular/common';
+import { Album } from 'src/app/_models/album';
+import { ListItem } from 'src/app/_models/listItem';
 
 
 @Component({
@@ -14,9 +14,8 @@ import { Location } from '@angular/common';
 })
 export class AlbumDetailComponent implements OnInit {
 
-  album: Album | undefined;
-  items: ListItem[] = [];
-  // event:Event|undefined;s
+  album!: Album;
+  items: ListItem[] = []; //nem kell
 
   constructor(private albumService: AlbumService, private route: ActivatedRoute, private location: Location, private listService: ListService) { }
 
@@ -37,15 +36,15 @@ export class AlbumDetailComponent implements OnInit {
   }
 
   getListItems(): void {
-    this.listService.getAllListItem().subscribe(data => this.items = data);
+    this.listService.getAllListItem().subscribe(data => this.items = data); //nem jó
   }
   
-  addOnClick(item: string) {
-    let iteM: ListItem = {
-      listItem: item
+  addOnClick() {
+    let obj: ListItem = {
+      listItem: this.album.albumTitle
     }
-    this.listService.addListItem(iteM).subscribe(() => {
-      this.getListItems();
+    this.listService.addListItem(obj).subscribe(() => {
+      this.getListItems(); //nem működik 
     });
   }
 

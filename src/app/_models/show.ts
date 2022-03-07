@@ -1,4 +1,4 @@
-export default interface Show{
+export interface Show{
           id:number;
           img: string;
           title:string;

@@ -1,7 +1,7 @@
 import { Location } from '@angular/common';
 import { Component, Input, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
-import Member from 'src/app/_models/member';
+import { Member } from 'src/app/_models/member';
 import { MemberService } from 'src/app/_services/member.service';
 
 
@@ -12,7 +12,7 @@ import { MemberService } from 'src/app/_services/member.service';
 })
 export class MemberDetailComponent implements OnInit {
 
-  member: Member |undefined;
+  member!: Member;
 
   constructor(
     private route: ActivatedRoute,

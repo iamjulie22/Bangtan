@@ -297,12 +297,20 @@
   ],
   "list": [
     {
-      "listItemid": 0,
+      "id": 0,
       "listItem": "dfg"
     },
     {
-      "listItemid": 1,
+      "id": 1,
       "listItem": "afg"
+    },
+    {
+      "listItem": "BE",
+      "id": 2
+    },
+    {
+      "listItem": "MAP OF THE SOUL : PERSONA",
+      "id": 3
     }
   ],
   "messages": [
@@ -320,11 +328,6 @@
       "username": "Julia",
       "message": "Szép",
       "id": 3
-    },
-    {
-      "username": "Julia",
-      "message": "sd",
-      "id": 4
     }
   ]
 }

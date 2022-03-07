@@ -2,7 +2,7 @@ import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { tap, catchError } from "rxjs/operators";
 import { environment } from "src/environments/environment";
-import Message from "../_models/message";
+import { Message } from "../_models/message";
 
 const httpOption = {
     headers: new HttpHeaders({ 'Content-Type': 'application/json' })
