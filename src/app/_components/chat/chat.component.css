@@ -20,7 +20,7 @@
     border-radius: 0.4rem;
     list-style: none;
     width: 40%;
-    float: bottom;
+    margin-left: 55%;
 
 }
 
@@ -30,8 +30,7 @@
     list-style: none;
     width: 40%;
     float: top;
-    margin:25px;
-
+    margin-top:2%;
 }
 
 .input_message{
@@ -40,6 +39,10 @@
 
 ion-icon{
     color: white;
+}
+
+.dropdown-toggle::after {
+    display:none;
 }
 
 

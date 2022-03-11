@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { tap, catchError } from "rxjs/operators";
+import { tap, catchError, map } from "rxjs/operators";
 import { environment } from "src/environments/environment";
 import { ListItem } from "../_models/listItem";
 
@@ -28,10 +28,11 @@ export class ListService {
 
     }
 
-    deleteItem(itemId: Number) {
-        return this.http.delete<ListItem>(`${environment.apiUrl}/list/${itemId}`,httpOption).pipe(
-          tap(() => console.log(`deleted item with id = ${itemId}`)),
-          catchError(error => error)
-        )
-      }
+    deleteItem(id:number){
+        return this.http.delete(`${environment.apiUrl}/list/${id}`)
+        .pipe(map(x=>{
+            return x;
+        }));
+
+    }
 }

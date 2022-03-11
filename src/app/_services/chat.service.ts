@@ -1,6 +1,6 @@
 import { HttpClient, HttpHeaders } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import { tap, catchError } from "rxjs/operators";
+import { tap, catchError, map } from "rxjs/operators";
 import { environment } from "src/environments/environment";
 import { Message } from "../_models/message";
 
@@ -28,6 +28,12 @@ export class ChatService {
         );
     }
 
+    deleteChatMsg(id:number){
+        return this.http.delete(`${environment.apiUrl}/messages/${id}`)
+        .pipe(map(x=>{
+            return x;
+        }));
+    }
 
 
 

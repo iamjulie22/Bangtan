@@ -1,17 +1,31 @@
-<div class="container chat" >
+<div class="container chat">
     <ul *ngFor="let message of messages" class="msg_div">
         <li *ngIf="this.authService.username === message.username" class="loggedIn_msg">
+            <div ngbDropdown>
+                <button type="button" class="btn editing" ngbDropdownToggle>...</button>
+                <ul ngbDropdownMenu>
+                    <li ngbDropdownItem (click)="deleteChatMessage(this.message.id)">Delete</li>
+                    <li ngbDropdownItem>Edit</li>
+                </ul>
+            </div>
             <p id="urn">{{message.username}}</p>
-            <p id="msg">{{message.message}}</p>      
+            <p id="msg">{{message.message}}</p>
         </li>
         <li *ngIf="this.authService.username !== message.username" class="NotloggedIn_msg">
+            <div ngbDropdown>
+                <button type="button" class="btn editing" ngbDropdownToggle>...</button>
+                <ul ngbDropdownMenu>
+                    <li ngbDropdownItem (click)="deleteChatMessage(this.message.id)">Delete</li>
+                    <li ngbDropdownItem>Edit</li>
+                </ul>
+            </div>
             <p id="urn">{{message.username}}</p>
-            <p id="msg">{{message.message}}</p>      
+            <p id="msg">{{message.message}}</p>
         </li>
     </ul>
     <form [formGroup]="messageForm" (ngSubmit)="onSubmit()" class="container fixed-bottom input_message">
         <div class="form-group ">
-            <input type="text" class="form-control"  required  formControlName="message" placeholder="Type something...">
+            <input type="text" class="form-control" required formControlName="message" placeholder="Type something...">
             <ion-icon name="send-outline" type="submit" class="btn" (click)="onSubmit()"></ion-icon>
         </div>
     </form>

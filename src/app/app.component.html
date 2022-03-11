@@ -9,7 +9,7 @@
             <div class="col login_register">
                 <a *ngIf="this.authService.isLoggedIn()" routerLink="/account" class="nav-link" aria-current="page">
                     {{ this.authService.username }}
-                    <ion-icon name="person-circle"></ion-icon>
+                    <ion-icon name="person-outline"></ion-icon>
                 </a>
                 <a *ngIf="!this.authService.isLoggedIn()" routerLink="/login" class="nav-link" aria-current="page">
                     Login/Register
@@ -27,7 +27,7 @@
                     <button class="btn btn-outline-primary du_button" ngbDropdownToggle><span>My List</span></button>
                     <div ngbDropdownMenu class="du_list" *ngIf="items">
                         <span class="listTitle">Check Out Later:</span>
-                        <li ngbDropdownItem *ngFor="let item of items">{{item.listItem}}</li>
+                        <li ngbDropdownItem *ngFor="let item of items">{{item.listItem}}<ion-icon name="trash-outline" (click)="deleteListItem(item.id)"></ion-icon></li>
                     </div>
                 </div>
             </div>

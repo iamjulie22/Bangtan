@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { first } from 'rxjs/operators';
 import { ListItem } from './_models/listItem';
 import { AuthService } from './_services/auth.service';
 import { ListService } from './_services/list.service';
@@ -12,24 +13,23 @@ export class AppComponent implements OnInit {
   title = 'A Guide To Bangtan';
   bandName = 'BTS';
 
-  items: ListItem[] = [];
+  items = null;
 
   constructor(private listService: ListService, public authService: AuthService) { }
 
   ngOnInit(): void {
-    this.getListItems();
+    this.listService.getAllListItem()
+    .pipe(first())
+    .subscribe(items => this.items = items);
     setTimeout(() => this.authService.getUsername(), 100);
   }
 
-  getListItems(): void {
-    this.listService.getAllListItem().subscribe(data => this.items = data);
+  deleteListItem(id:number){
+    const item = this.items.find(x=> x.id ===id);
+    confirm('Are you sure you want to delete this item?') ?
+    item.isDeleting = true && this.listService.deleteItem(id)
+    .pipe(first())
+    .subscribe(()=>this.items = this.items.filter(x=>x.id !== id)) : "";
   }
-  
-  // delete(id:number){
-  //   confirm("Are you sure you want to delete this hero?")? this.listService.deleteItem(id).subscribe(
-  //     () => this.getListItems())
-  //   :"";
-
-  // }
 
 }

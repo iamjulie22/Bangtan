@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { first } from 'rxjs/operators';
 import { Message } from 'src/app/_models/message';
 import { AuthService } from 'src/app/_services/auth.service';
 import { ChatService } from 'src/app/_services/chat.service';
@@ -11,7 +12,7 @@ import { ChatService } from 'src/app/_services/chat.service';
 })
 export class ChatComponent implements OnInit {
 
-  messages: Message[] = [];
+  messages=null;
   messageForm!: FormGroup;
 
   constructor(private chatService: ChatService, private fb: FormBuilder, public authService: AuthService) { }
@@ -42,6 +43,13 @@ export class ChatComponent implements OnInit {
     this.messageForm.reset();
   }
 
+  deleteChatMessage(id:number){
+    const message = this.messages.find(x=> x.id ===id);
+    confirm('Are you sure you want to delete this message?') ?
+    this.chatService.deleteChatMsg(id)
+    .pipe(first())
+    .subscribe(()=>this.messages = this.messages.filter(x=>x.id !== id)) : "";
+  }
 
 
 }
