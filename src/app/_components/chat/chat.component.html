@@ -5,20 +5,31 @@
                 <button type="button" class="btn editing" ngbDropdownToggle>...</button>
                 <ul ngbDropdownMenu>
                     <li ngbDropdownItem (click)="deleteChatMessage(this.message.id)">Delete</li>
-                    <li ngbDropdownItem>Edit</li>
+                    <li ngbDropdownItem class="btn btn-lg btn-outline-primary" (click)="open(content)">Edit</li>
+                    <ng-template #content let-c="close" let-d="dismiss">
+                        <div class="modal-header">
+                          <h4 class="modal-title" id="modal-basic-title">Edit message:</h4>
+                          <button type="button" class="btn-close" aria-label="Close" (click)="d('Cross click')"></button>
+                        </div>
+                        <div class="modal-body">
+                            <form [formGroup]="editMsgForm">
+                                <div class="form-group">
+                                    <input type="text" formControlName="message" class="form-control">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-outline-dark" (click)="c(updateMessage(this.message.id))">Save</button>
+                        </div>
+                      </ng-template>
+                      
+                    
                 </ul>
             </div>
             <p id="urn">{{message.username}}</p>
             <p id="msg">{{message.message}}</p>
         </li>
         <li *ngIf="this.authService.username !== message.username" class="NotloggedIn_msg">
-            <div ngbDropdown>
-                <button type="button" class="btn editing" ngbDropdownToggle>...</button>
-                <ul ngbDropdownMenu>
-                    <li ngbDropdownItem (click)="deleteChatMessage(this.message.id)">Delete</li>
-                    <li ngbDropdownItem>Edit</li>
-                </ul>
-            </div>
             <p id="urn">{{message.username}}</p>
             <p id="msg">{{message.message}}</p>
         </li>

@@ -15,6 +15,13 @@
       "password": "Julia1",
       "email": "Julia1",
       "token": ""
+    },
+    {
+      "id": 3,
+      "username": "fshnyn",
+      "password": "fshnyn",
+      "email": "fshnyn",
+      "token": ""
     }
   ],
   "members": [
@@ -151,10 +158,32 @@
           "songLength": "3:19"
         }
       ],
-      "conceptPhotos": {
-        "img1": "/assets/img/BE/be_group.jpg",
-        "img2": "assets/img/BE/be_jhope1.jpg "
-      }
+      "conceptPhotos": [
+        {
+          "img": "/assets/img/BE/be_group_cp.jpg"
+        },
+        {
+          "img": "assets/img/BE/be_rm2.jpg "
+        },
+        {
+          "img": "assets/img/BE/be_jin2.jpg "
+        },
+        {
+          "img": "assets/img/BE/be_suga2.jpg "
+        },
+        {
+          "img": "assets/img/BE/be_jhope2.jpg "
+        },
+        {
+          "img": "assets/img/BE/be_jimin2.jpg "
+        },
+        {
+          "img": "assets/img/BE/be_v2.jpg "
+        },
+        {
+          "img": "assets/img/BE/be_jk2.jpg "
+        }
+      ]
     },
     {
       "id": 2,
@@ -297,14 +326,6 @@
   ],
   "list": [
     {
-      "listItem": "BE",
-      "id": 5
-    },
-    {
-      "listItem": "LOVE YOURSELF轉‘TEAR’",
-      "id": 6
-    },
-    {
       "listItem": "LOVE YOURSELF轉‘TEAR’",
       "id": 7
     },
@@ -329,29 +350,14 @@
       "id": 2
     },
     {
-      "username": "Julia1",
-      "message": "sfff",
+      "username": "fshnyn",
+      "message": "bye",
       "id": 3
     },
     {
-      "username": "Julia1",
-      "message": "dsgg",
+      "username": "fshnyn",
+      "message": "hiii",
       "id": 4
-    },
-    {
-      "username": "Julia1",
-      "message": "fíeeeeeeee",
-      "id": 5
-    },
-    {
-      "username": "Julia1",
-      "message": "fgígee",
-      "id": 6
-    },
-    {
-      "username": "Julia1",
-      "message": null,
-      "id": 7
     }
   ]
 }

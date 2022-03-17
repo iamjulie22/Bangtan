@@ -29,10 +29,18 @@ export class ChatService {
     }
 
     deleteChatMsg(id:number){
-        return this.http.delete(`${environment.apiUrl}/messages/${id}`)
+        return this.http.delete(`${environment.apiUrl}/messages/${id}`,httpOption)
         .pipe(map(x=>{
             return x;
         }));
+    }
+
+    updateMsg(id,message:Message){
+        return this.http.put(`${environment.apiUrl}/messages/${id}`,message,httpOption)
+        .pipe(map(x=>{
+            return x; 
+        }),
+        catchError(error=>error));
     }
 
 

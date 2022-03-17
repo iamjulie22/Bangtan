@@ -23,6 +23,14 @@
                 </div>
             </div>
         </div>
-        <!--YT Links-->
+        <div class="container d-flex justify-content-center">
+        <ngb-carousel>
+            <ng-template ngbSlide *ngFor="let conceptPhotos of album.conceptPhotos">
+              <div class="picsum-img-wrapper">
+                <img [src]="conceptPhotos.img" alt="..." >
+              </div>
+            </ng-template>
+          </ngb-carousel>
+        </div>
     </div>
 </div>

@@ -10,8 +10,9 @@ export interface Album {
       songLength:string;
     }
   ],
-  conceptPhotos: {
-    img1:string;
-    img2: string;
-  }
+  conceptPhotos:[
+     {
+       img:string;
+     }
+  ]
 }

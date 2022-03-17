@@ -76,5 +76,12 @@ p {
     cursor: pointer;
  }
 
+ ngb-carousel{
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width:700px;
+    height: 700px;
+ }
+
 
 
