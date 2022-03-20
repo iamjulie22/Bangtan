@@ -5,8 +5,10 @@
             <div class="col">
                 <img src="{{album.albumImg}}" alt="{{album.albumTitle}}" class="album_photo">
                 <div class="album_info_text">
-                    <h1 class="album_title" >{{album.albumTitle}} <ion-icon name="add-circle-outline" (click)="addOnClick()"></ion-icon></h1>
-                   
+                    <h1 class="album_title">{{album.albumTitle}} <ion-icon name="add-circle-outline"
+                            (click)="addOnClick()"></ion-icon>
+                    </h1>
+
                     <p>{{album.info}}</p>
                 </div>
             </div>
@@ -16,7 +18,7 @@
                 <div class="col details_list ">
                     <h1 class="tracks">TRACKS</h1>
                     <ul *ngFor="let tracklist of album.trackList">
-                        <li><span class="song_id">{{tracklist.songId}}</span><span
+                        <li><span class="song_id">{{tracklist.id}}</span><span
                                 class="song_title">{{tracklist.songTitle}}</span><span
                                 class="song_length">{{tracklist.songLength}}</span></li>
                     </ul>
@@ -24,13 +26,20 @@
             </div>
         </div>
         <div class="container d-flex justify-content-center">
-        <ngb-carousel>
-            <ng-template ngbSlide *ngFor="let conceptPhotos of album.conceptPhotos">
-              <div class="picsum-img-wrapper">
-                <img [src]="conceptPhotos.img" alt="..." >
-              </div>
-            </ng-template>
-          </ngb-carousel>
+            <ngb-carousel>
+                <ng-template data-interval="1000" ngbSlide *ngFor="let conceptPhotos of album.conceptPhotos">
+                    <div class="picsum-img-wrapper">
+                        <img class="carousel_img" [src]="conceptPhotos.img" alt="...">
+                    </div>
+                </ng-template>
+            </ngb-carousel>
+        </div>
+        <div class="container">
+            <div *ngFor="let links of album.ytLinks">
+                <iframe width="420" height="315"
+                     [src]='links.link'>
+                </iframe>
+            </div>
         </div>
     </div>
 </div>

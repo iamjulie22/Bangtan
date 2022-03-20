@@ -5,7 +5,7 @@ export interface Album {
   info:string;
   trackList: [
     {
-      songId:number;
+      id:number;
       songTitle:string;
       songLength:string;
     }
@@ -14,5 +14,10 @@ export interface Album {
      {
        img:string;
      }
+  ],
+  ytLinks:[
+    {
+      link:string;
+    }
   ]
 }

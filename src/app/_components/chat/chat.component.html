@@ -2,7 +2,7 @@
     <ul *ngFor="let message of messages" class="msg_div">
         <li *ngIf="this.authService.username === message.username" class="loggedIn_msg">
             <div ngbDropdown>
-                <button type="button" class="btn editing" ngbDropdownToggle>...</button>
+                <button type="button" class="btn_editing" ngbDropdownToggle>...</button>
                 <ul ngbDropdownMenu>
                     <li ngbDropdownItem (click)="deleteChatMessage(this.message.id)">Delete</li>
                     <li ngbDropdownItem class="btn btn-lg btn-outline-primary" (click)="open(content)">Edit</li>
@@ -22,8 +22,6 @@
                           <button type="button" class="btn btn-outline-dark" (click)="c(updateMessage(this.message.id))">Save</button>
                         </div>
                       </ng-template>
-                      
-                    
                 </ul>
             </div>
             <p id="urn">{{message.username}}</p>
