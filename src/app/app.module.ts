@@ -19,6 +19,7 @@ import { MemberDetailComponent } from './_components/member-detail/member-detail
 import { MembersComponent } from './_components/members/members.component';
 import { ShowsComponent } from './_components/shows/shows.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { SafePipe } from './_guards/safe_pipe';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,8 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
     AlbumsComponent,
     AlbumDetailComponent,
     ShowsComponent,
-    ChatComponent
+    ChatComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

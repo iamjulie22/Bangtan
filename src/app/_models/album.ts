@@ -9,12 +9,12 @@ export interface Album {
       songTitle:string;
       songLength:string;
     }
-  ],
+  ]
   conceptPhotos:[
      {
        img:string;
      }
-  ],
+  ]
   ytLinks:[
     {
       link:string;

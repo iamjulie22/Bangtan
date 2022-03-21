@@ -7,11 +7,22 @@
     display: grid;
     grid-template-columns: 25% 25% 25%;
     justify-content: center;
-    margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .grid-container div{
     text-align: center;
     margin-left: 5%;
     margin-top: 5%;
+}
+
+.grid-container div:hover{
+    transform: scale(1.1);
+    transition: .8s;
+  }
+
+.album{
+    color: white;
+    font-family: 'Domine', serif;
+      margin-top: 2%;
 }

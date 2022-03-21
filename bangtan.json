@@ -35,7 +35,176 @@
       "age": 27,
       "occupation": "Rapper, songwriter, record producer",
       "position": "Leader, Main Rapper",
-      "info": "info"
+      "info": "As main rapper and leader of BTS, Kim Nam-joon -- also known as RM -- topped charts and broke records across the globe with the K-pop powerhouse boy band, while also launching a successful solo career in 2015 with debut mixtape RM. He followed in 2018 with Mono. Born in Ilsan, South Korea, he developed a love of hip-hop at a young age and honed his English skills by viewing the American television show Friends. He started performing as Runch Randa. It wasn't until 2010, during auditions with Big Hit, that RM was recruited as the first member of BTS. On the side, RM branched out with his own solo material, debuting in 2015 with the self-titled mixtape RM, which peaked at number 12 on the U.S. World Albums chart. Three years later he issued his sophomore solo effort, Mono, which bested his previous effort with a strong number two showing on the World Albums chart. In 2021, during that year's BTS Festa, he released the solo track Bicycle.",
+      "soloSongs":[
+        {
+          "song":"Perfect Christmas (with Jo Kwon, Lim Jeong-hee, Joohee and Jung Kook) (2013)"
+        },
+        {
+          "song":"Intro: 2 Cool 4 Skool from 2 Cool 4 Skool (2013)"
+        },
+        {
+          "song":"Intro: O!RUL8,2? from O!RUL8,2? (2013)"
+        },
+        {
+          "song":"Intro: What Am I To You from Dark & Wild (2014)"
+        },
+        {
+          "song":"Monterlude (2014)"
+        },
+        {
+          "song":"Unpack Your Bags (with DJ Soulscape) (2014)"
+        },
+        {
+          "song":"P.D.D (with Warren G) (2015)"
+        },
+        {
+          "song":"Fantastic (feat. Mandy Ventrice) (2015)"
+        },
+        {
+          "song":"Buckubucku (부끄부끄) from WondaLand (MFBTY feat. EE, RM and Dino-J) (2015)"
+        },
+        {
+          "song":"ProMeTheUs (튀겨) from Andre (Yankie feat. Dok2, Juvie Train, Double K, RM, Topbob and Don Mills) (2015)"
+        },
+        {
+          "song":"U from 2 (Primary feat. Kwon Jin-ah and RM) (2015)"
+        },
+        {
+          "song":"I Know (아라요) (with Jung Kook) (2016)"
+        },
+        {
+          "song":"Reflection from Wings (2016)"
+        },
+        {
+          "song":"Change (with Wale) (2017)"
+        },
+        {
+          "song":"Gajah (코끼리) (with Gaeko) (2017)"
+        },
+        {
+          "song":"Champion (Remix) (with Fall Out Boy) (2017)"
+        },
+        {
+          "song":"Always (2017)"
+        },
+        {
+          "song":"4 O'CLOCK (네시) (with V) (2017)"
+        },
+        {
+          "song":"Trivia 承: Love from Love Yourself: Answer (2018)"
+        },
+        {
+          "song":"DDaeng (땡) (with SUGA and j-hope) (2018)"
+        },
+        {
+          "song":"Timeless from X : Rebirth Of Tiger JK (Tiger JK feat. RM) (2018)"
+        },
+        {
+          "song":"Crying Over You ◐ (with Honne and Beka) (2019)"
+        },
+        {
+          "song":"Seoul Town Road (Old Town Road Remix) (with Lil Nas X) (2019)"
+        },
+        {
+          "song":"All Night from BTS World OST Part.3 (with SUGA and Juice Wrld) (2019)"
+        },
+        {
+          "song":"Intro: Persona from Map of the Soul: Persona (2019)"
+        },
+        {
+          "song":"Winter Flower (雪中梅) from Unstable Mindset (Younha feat. RM) (2020)"
+        },
+        {
+          "song":"Strange from D-2 (Agust D feat. RM) (2020)"
+        },
+        {
+          "song":"Don't (그러지 마) from Fragile (eAeon feat. RM) (2021)"
+        },
+        {
+          "song":"Bicycle (2021)"
+        }
+      ],
+      "mixtapes":[
+        {
+          "name":"RM (2015)",
+          "songs":[
+            {
+              "song":"Voice"
+            },
+            {
+              "song":"Do You"
+            },
+            {
+              "song":"Awakening"
+            },
+            {
+              "song":"Monster"
+            },
+            {
+              "song":"Throw Away "
+            },
+            {
+              "song":"Joke"
+            },
+            {
+              "song":"God Rap"
+            },
+            {
+              "song":"Rush (Feat. Krizz Kaliko)"
+            },
+            {
+              "song":"Life"
+            },
+            {
+              "song":"Drift "
+            },
+            {
+              "song":"I Believe"
+            }
+          ]
+        },
+        {
+          "name":"Mono (2018)",
+          "songs":[
+            {
+              "song":"Tokyo"
+            },
+            {
+              "song":"Seoul (prod. HONNE)"
+            },
+            {
+              "song":"Moonchild"
+            },
+            {
+              "song":"Badbye (with eAeon)"
+            },
+            {
+              "song":"Uhgood"
+            },
+            {
+              "song":"Everythingoes "
+            },
+            {
+              "song":"Forever Rain "
+            }
+          ]
+        }
+      ],
+      "soloYtlinks":[
+        {
+          "link":"https://www.youtube.com/embed/M9Uy0opVF3s"
+        },
+        {
+          "link":"https://www.youtube.com/embed/Cvb76hBX_Oc"
+        },
+        {
+          "link":"https://www.youtube.com/embed/6uq3P7zeYyU"
+        },
+        {
+          "link":"https://www.youtube.com/embed/0XAxf8aFtL4"
+        }
+      ]
     },
     {
       "img": "assets/img/BE/be_jin1.jpg",
@@ -47,7 +216,53 @@
       "age": 29,
       "occupation": "Singer, songwriter",
       "position": "Sub Vocalist, Visual",
-      "info": "info"
+      "info": "Kim Seok-jin , better known by his stage name Jin , is a South Korean singer-songwriter and record producer under Big Hit Music. He is a vocalist and a visual in BTS. As a solo artist, he has released three self-produced songs: Tonight in 2019, Abyss in 2020 and Super Tuna in 2021. Jin was scouted by Big Hit Entertainment for his looks while walking down the street. At the time, Jin was studying acting and had no background in music. On June 13, 2013, Jin made his debut as one of the four vocalists in BTS. Jin collaborated with fellow BTS member V on the song It’s Definitely You, released as part of the Hwarang: The Poet Warrior Youth original soundtrack. On June 4, 2019, Jin released his first independent song Tonight as part of the 2019 BTS Festa. The acoustic ballad was composed by Jin alongside Big Hit Entertainment record producers Slow Rabbit and Hiss Noise. The lyrics, written by Jin and BTS leader RM, are inspired by Jin's relationship with his pets. The track was met with a generally positive reception, with praise directed towards Jin's vocals and the song's calming atmosphere. On December 3, 2020, Kim released his second solo song Abyss a day before his 28th birthday.",
+      "soloSongs":[
+        {
+          "song":"Awake from Wings (2016)"
+        },
+        {
+          "song":"Awake (Christmas Ver.) (2016)"
+        },
+        {
+          "song":"So Far Away (with SUGA and Jung Kook) (2017)"
+        },
+        {
+          "song":"It's Definitely You from Hwarang OST Part.2 (with V) (2017)"
+        },
+        {
+          "song":"Epiphany from Love Yourself: Answer (2018)"
+        },
+        {
+          "song":"Tonight (이 밤) (2019)"
+        },
+        {
+          "song":"Dream Glow from BTS World OST Part.1 (with Jimin, Jung Kook and Charli XCX) (2019)"
+        },
+        {
+          "song":"Moon from Map of the Soul: 7 (2020)"
+        },
+        {
+          "song":"Abyss (2020)"
+        },
+        {
+          "song":"Yours from Jirisan OST Part.4 (2021)"
+        },
+        {
+          "song":"Super Tuna (슈퍼 참치) (2021)"
+        }
+      ],
+      "soloYtlinks":[
+        {
+          "link":"https://www.youtube.com/embed/fIkZOLsnoqY"
+        },
+        {
+          "link":"https://www.youtube.com/embed/cQA7VKSvXFM"
+        },
+        {
+          "link":"https://www.youtube.com/embed/aqtSOksH-NE"
+        }
+      ]
     },
     {
       "img": "assets/img/BE/be_suga1.jpg",
@@ -59,19 +274,224 @@
       "age": 28,
       "occupation": "Rapper, songwriter, record producer",
       "position": "Lead Rapper",
-      "info": "info"
+      "info": "Min Yoon-gi , better known by his stage names SUGA and Agust D is a South Korean rapper-songwriter and record producer under Big Hit Music. He is a rapper of BTS, also he is notable for his large input in songwriting and is the major music producer between the members. As a solo artist, he has released two mixtapes: Agust D in 2016 and D-2 in 2020. In 2018, Suga was promoted to full member of the Korea Music Copyright Association. Originally joining the company as a music producer, Suga trained under Big Hit Entertainment for three years alongside members j-hope and RM. He has produced and written lyrics for a variety of tracks on all of BTS' albums. He released a free self-titled mixtape via SoundCloud on August 15, 2016. On the record, he discussed matters such as his struggles with depression and social phobia. On May 6, 2020, IU released the digital single Eight featuring and produced by SUGA. SUGA released his second mixtape, D-2 (the continuation to Agust D), together with the music video for its lead single Daechwita on May 22.The mixtape debuted at number 11 on the Billboard 200 and became the highest-charting album by a Korean soloist in the US. ",
+      "soloSongs":[
+        {
+          "song":"Intro: The Most Beautiful Moment in Life from The Most Beautiful Moment in Life Pt.1 (2015)"
+        },
+        {
+          "song":"First Love from Wings (2016)"
+        },
+        {
+          "song":"So Far Away (with Jin and Jung Kook) (2017)"
+        },
+        {
+          "song":"DDaeng (땡) (with RM and j-hope) (2018)"
+        },
+        {
+          "song":"Trivia 轉: Seesaw from Love Yourself: Answer (2018)"
+        },
+        {
+          "song":"Song Request (신청곡) (with Lee Sora) (2019)"
+        },
+        {
+          "song":"SUGA's Interlude (with Halsey) (2019)"
+        },
+        {
+          "song":"Eight (with IU) (2020)"
+        },
+        {
+          "song":"Blueberry Eyes (with MAX) (2020)"
+        },
+        {
+          "song":"All Night from BTS World OST Part.3 (with RM and Juice Wrld) (2019)"
+        },
+        {
+          "song":"Interlude: Shadow from Map of the Soul: 7 (2020)"
+        },
+        {
+          "song":"Blueberry Eyes (with MAX) (2020)"
+        },
+        {
+          "song":"Girl Of My Dreams (with Juice WRLD)(2021)"
+        },
+        {
+          "song":"Over the Horizon (2021)"
+        }
+      ],
+      "mixtapes":[
+        {
+          "name":"Agust D (2016)",
+          "songs":[
+            {
+              "song":"Intro: Dt sugA (Feat. DJ Friz)"
+            },
+            {
+              "song":"Agust D"
+            },
+            {
+              "song":"Give It to Me"
+            },
+            {
+              "song":"Skit"
+            },
+            {
+              "song":"724148 "
+            },
+            {
+              "song":"140503 at Dawn "
+            },
+            {
+              "song":"The Last"
+            },
+            {
+              "song":"Tony Montana (feat. Yankie)"
+            },
+            {
+              "song":"Interlude: Dream, Reality"
+            },
+            {
+              "song":"So Far Away (feat. Suran)"
+            }
+          ]
+        },
+        {
+          "name":"D-2 (2020)",
+          "songs":[
+            {
+              "song":"Moonlight"
+            },
+            {
+              "song":"Daechwita"
+            },
+            {
+              "song":"What do you think?"
+            },
+            {
+              "song":"Strange (feat. RM)"
+            },
+            {
+              "song":"28"
+            },
+            {
+              "song":"Burn It"
+            },
+            {
+              "song":"People"
+            },
+            {
+              "song":"Honsool"
+            },
+            {
+              "song":"Interlude: Set me free"
+            },
+            {
+              "song":"Dear my friend (feat. Kim Jong Wan of NELL)"
+            }
+          ]
+        }
+      ],
+      "soloYtlinks":[
+        {
+          "link":"https://www.youtube.com/embed/PV1gCvzpSy0"
+        },
+        {
+          "link":"https://www.youtube.com/embed/qGjAWJ2zWWI"
+        },
+        {
+          "link":"https://www.youtube.com/embed/yzjTpCgfIII"
+        },
+        {
+          "link":"https://www.youtube.com/embed/3Y_Eiyg4bfk"
+        },
+        {
+          "link":"https://www.youtube.com/embed/TgOu00Mf3kI"
+        }
+      ]
     },
     {
       "img": "assets/img/BE/be_jhope1.jpg",
       "img2": "assets/img/BE/be_jhope2.jpg",
       "id": 4,
       "name": "Jung Hoseok",
-      "stageName": "J-Hope",
+      "stageName": "j-hope",
       "born": "February 18, 1994 ",
       "age": 27,
       "occupation": "Rapper, singer, songwriter, dancer, record producer",
       "position": "Main Dancer, Sub Rapper",
-      "info": "info"
+      "info": "Jung Ho-seok, better known by his stage name j-hope, is a South Korean rapper-songwriter and record producer under Big Hit Music. He is a rapper and a dancer of BTS, also he is notable for his large input in songwriting and production in the discography in the group. As a solo artist, he has released first mixtape Hope World in 2018. In 2020, j-hope was promoted to full member of the Korea Music Copyright Association. On June 13, 2013, j-hope made his debut as a member of BTS. He was the third member to join the group as a trainee after RM and SUGA. j-hope has since been involved in the creation process of every album in BTS' discography. On March 1, 2018, j-hope released his first solo mixtape, Hope World, worldwide, along with a music video for the title track Daydream. A music video for the B-side Airplane was later released on March 6. In 2019, j-hope released a free collaboration single, Chicken Noodle Soup, on September 27, featuring American singer, Becky G. For the three-year anniversary of his mixtape, j-hope released a full, three-minute long version of its closing track Blue Side (Outro) on March 1, 2021—it was uploaded to the BTS Soundcloud page for free.",
+      "soloSongs":[
+        {
+          "song":"Animal from I'm Da One (Jo Kwon feat. Jung Ho-seok of BTS) (2012)"
+        },
+        {
+          "song":"Intro: Boy Meets Evil from Wings (2016)"
+        },
+        {
+          "song":"MAMA from Wings (2016)"
+        },
+        {
+          "song":"DDaeng (땡) (with RM and SUGA) (2018)"
+        },
+        {
+          "song":"Trivia 起: Just Dance from Love Yourself: Answer (2018)"
+        },
+        {
+          "song":"Chicken Noodle Soup (feat. Becky G) (2019)"
+        },
+
+        {
+          "song":"A Brand New Day from BTS World OST Part.2 (with V and Zara Larsson) (2019)"
+        },
+        {
+          "song":"Outro: Ego from Map of the Soul: 7 (2020)"
+        },
+        {
+          "song":"Blue Side (2021)"
+        }
+      ],
+      "mixtapes":[
+        {
+          "name":"Hope World (2018)",
+          "songs":[
+            {
+              "song":"Hope World"
+            },
+            {
+              "song":"P.O.P (Piece Of Peace) Pt.1"
+            },
+            {
+              "song":"Daydream"
+            },
+            {
+              "song":"Base Line"
+            },
+            {
+              "song":"Hangsang"
+            },
+            {
+              "song":"Airplane"
+            },
+            {
+              "song":"Blue Side (Outro)"
+            }
+          ]
+        }
+      ],
+      "soloYtlinks":[
+        {
+          "link":"https://www.youtube.com/embed/LmApDbvNCXg"
+        },
+        {
+          "link":"https://www.youtube.com/embed/iJJSh-eEdRk"
+        },
+        {
+          "link":"https://www.youtube.com/embed/i23NEQEFpgQ"
+        },
+        {
+          "link":"https://www.youtube.com/embed/OK3GJ0WIQ8s"
+        }
+      ]
     },
     {
       "img": "assets/img/BE/be_jimin1.jpg",
@@ -83,7 +503,38 @@
       "age": 26,
       "occupation": "Singer, dancer",
       "position": "Main Dancer, Lead Vocalist",
-      "info": "info"
+      "info": "Park Ji-min, better known by his stage name Jimin , is a South Korean singer-songwriter and record producer under Big Hit Music. He is a vocalist and a dancer of BTS. As a solo artist, he has released two self-produced songs: Promise in 2018 and Christmas Love in 2020. On June 13, 2013, Jimin made his debut as a member of BTS. In the group, Jimin holds the position of vocalist and dancer. Under BTS, he has released three solo songs: Lie, Serendipity, and Filter.  Jimin was awarded the fifth-class Hwagwan Order of Cultural Merit by the President of South Korea in 2018, along with other members of BTS for their contributions to the promotion of Korean culture. On December 30, 2018, Jimin released his first solo song outside of BTS releases, Promise, for free on BTS' SoundCloud page. On January 3, 2019, the platform announced that Promise had surpassed the record set by Drake's Duppy Freestyle for the biggest 24-hour debut ever. Described by Billboard as a mellow pop ballad, the song was composed by Jimin and Big Hit producer Slow Rabbit, who also produced the track, and features lyrics written by Jimin and fellow BTS member RM. On December 24, 2020, Jimin released his second solo effort Christmas Love, a song about his childhood memories of the holidays.",
+      "soloSongs":[
+        {
+          "song":"Lie from Wings (2016)"
+        },
+        {
+          "song":"Intro: Serendipity from Love Yourself: Her (2017)"
+        },
+        {
+          "song":"Serendipity (Full Length Edition) from Love Yourself: Answer (2018)"
+        },
+        {
+          "song":"Promise (약속) (2018)"
+        },
+        {
+          "song":"Filter from Map of the Soul: 7 (2020)"
+        },
+        {
+          "song":"Christmas Love (2020)"
+        }
+      ],
+      "soloYtlinks":[
+        {
+          "link":"https://www.youtube.com/embed/BEMaH9Sm3lQ"
+        },
+        {
+          "link":"https://www.youtube.com/embed/_y8-HD5O69g"
+        },
+        {
+          "link":"https://www.youtube.com/embed/LDPSNwJPnGY"
+        }
+      ]
     },
     {
       "img": "assets/img/BE/be_v1.jpg",
@@ -95,7 +546,54 @@
       "age": 26,
       "occupation": "Singer, songwriter",
       "position": "Lead Dancer, Sub Vocalist, Visual",
-      "info": "info"
+      "info": "Kim Tae-hyung , better known by his stage name V, is a South Korean singer-songwriter, record producer and actor under Big Hit Music. He is a vocalist, a dancer and a visual of BTS. As a solo artist, he has released three self-produced songs: Scenery, Winter Bear and Sweet Night. He made his acting debut under his birth name on 2016 with the drama Hwarang: The Poet Warrior Youth. On June 13, 2013, he made his debut as a member of BTS. On October 24, V became one of the youngest recipients of the prestigious fifth-class Hwagwan Order of Cultural Merit medal, awarded to him by the President of South Korea along with the other members of BTS for their role in the spread of culture. In 2016, V made his acting debut with a supporting role in KBS2's historical drama Hwarang: The Poet Warrior Youth under his real name. He also collaborated with fellow BTS member Jin for the Hwarang soundtrack entitled It's Definitely You. On June 8, 2017, he released 4 O'CLOCK, a song he co-produced with fellow BTS member RM, to celebrate BTS’ fourth anniversary. V coined the phrase I purple you during BTS' fanmeeting in November 2016. Ever since then, purple has become a symbol of BTS and their fans. UNICEF also used the phrase for their anti-bullying campaign in collaboration with BTS.",
+      "soloSongs":[
+        {
+          "song":"Stigma from Wings (2016)"
+        },
+        {
+          "song":"It's Definitely You from Hwarang OST Part.2 (with Jin) (2017)"
+        },
+        {
+          "song":"4 O'CLOCK (네시) (with RM) (2017)"
+        },
+        {
+          "song":"Intro: Singularity from Love Yourself: Tear (2018)"
+        },
+        {
+          "song":"A Brand New Day from BTS World OST Part.2 (with j-hope and Zara Larsson) (2019)"
+        },
+        {
+          "song":"Scenery (풍경) (2019)"
+        },
+        {
+          "song":"Winter Bear (2019)"
+        },
+        {
+          "song":"Sweet Night from Itaewon Class OST Part.12 (2020)"
+        },
+
+        {
+          "song":"Inner Child from Map of the Soul: 7 (2020)"
+        },
+        {
+          "song":"Snow Flower (feat. Peakboy) (2020)"
+        },
+        {
+          "song":"Christmas Tree from Our Beloved Summer OST Part.5 (2021)"
+        }
+      ],
+      "soloYtlinks":[
+        {
+          "link":"https://www.youtube.com/embed/p8npDG2ulKQ"
+        },
+        {
+          "link":"https://www.youtube.com/embed/pk7ESz6vtyA"
+        },
+        {
+          "link":"https://www.youtube.com/embed/2nY0spA5UL4"
+        }
+      ]
     },
     {
       "img": "assets/img/BE/be_jk1.jpg",
@@ -107,7 +605,41 @@
       "age": 24,
       "occupation": "Singer",
       "position": "Main Vocalist, Lead Dancer",
-      "info": "info"
+      "info": "Jeon Jeong-guk, better known by his stage name Jung Kook, is a South Korean singer-songwriter and record producer under Big Hit Music. He is a vocalist, the center, a dancer, a visual and the maknae of BTS. As a solo artist, he has released first self-produced song Still With You in 2020.On June 12, 2013, Jung Kook made his debut as a member of BTS.On October 25, 2018, Jung Kook was ordained with the fifth-class Hwagwan Order of Cultural Merit by the President of South Korea. On June 4, 2020, Jung Kook released the song Still With You, for free on platforms such as SoundCloud as a part of BTS' yearly debut celebrations. Billboard described the song as having tinkling synths and gently strummed guitars and brushed drums. Jung Kook produced the piece himself. Jung Kook's popularity has earned him the nickname Sold Out King as items that he is seen using often sell out quickly. These include shoes, Downy fabric softener, wine, novels and Hanbok. ",
+      "soloSongs":[
+        {
+          "song":"I Know (알아요) (with RM) (2016)"
+        },
+        {
+          "song":"Begin from Wings (2016)"
+        },
+        {
+          "song":"So Far Away (with SUGA and Jin) (2017)"
+        },
+        {
+          "song":"Euphoria from Love Yourself: Answer (2018)"
+        },
+        {
+          "song":"Still With You (2020)"
+        },
+        {
+          "song":"My Time from Map of the Soul: 7 (2020)"
+        },
+        {
+          "song":"Stay Alive (Prod. SUGA of BTS) (2022)"
+        }
+      ],
+      "soloYtlinks":[
+        {
+          "link":"https://www.youtube.com/embed/kX0vO4vlJuU"
+        },
+        {
+          "link":"https://www.youtube.com/embed/yzjTpCgfIII"
+        },
+        {
+          "link":"https://www.youtube.com/embed/yR73I0z5ms0"
+        }
+      ]
     }
   ],
   "albums": [
@@ -160,7 +692,7 @@
       ],
       "conceptPhotos": [
         {
-          "img": "/assets/img/BE/be_group_cp.jpg"
+          "img": "/assets/img/BE/be_group.jpg"
         },
         {
           "img": "assets/img/BE/be_rm2.jpg "
@@ -186,7 +718,10 @@
       ],
       "ytLinks":[
         {
-          "link":"https://www.youtube.com/embed/?v=-5q5mZbe3V8&list=PLwN_wMJhvydYmpST5YaGouq6JcmyVyQB0&index=7"
+          "link":"https://www.youtube.com/embed/-5q5mZbe3V8"
+        },
+        {
+          "link":"https://www.youtube.com/embed/gdZLi9oWNZg"
         }
       ]
     },
@@ -317,6 +852,14 @@
         {
           "img": "assets/img/MOTS7/mots7_jk.jpg"
         }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/gwMa6gpoE9I"
+        },
+        {
+          "link":"https://www.youtube.com/embed/0lapF4DQPKQ"
+        }
       ]
     },
     {
@@ -385,6 +928,14 @@
         },
         {
           "img": "assets/img/motsp/jk.jpg"
+        }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/XsX3ATc3FbA"
+        },
+        {
+          "link":"https://www.youtube.com/embed/eXBu09fwe3I"
         }
       ]
     },
@@ -545,6 +1096,11 @@
         {
           "img": "assets/img/lya/jk.jpg"
         }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/pBuZEGYXA6E"
+        }
       ]
     },
     {
@@ -634,6 +1190,11 @@
         {
           "img": "assets/img/lyt/jk.jpg"
         }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/7C2z4GqqS5E"
+        }
       ]
     },
     {
@@ -712,6 +1273,14 @@
         },
         {
           "img": "assets/img/lyh/jk.jpg"
+        }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/MBdVXkSdhwU"
+        },
+        {
+          "link":"https://www.youtube.com/embed/kTlv5_Bs8aw"
         }
       ]
     },
@@ -837,6 +1406,14 @@
         {
           "img": "assets/img/ynwa/jk.jpg"
         }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/9DwzBICPhdM"
+        },
+        {
+          "link":"https://www.youtube.com/embed/xEeFrLSkMm8"
+        }
       ]
     },
     {
@@ -945,6 +1522,11 @@
         },
         {
           "img": "assets/img/wings/jk.jpg"
+        }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/hmE9f-TEutc"
         }
       ]
     },
@@ -1095,6 +1677,17 @@
         {
           "img": "assets/img/young forever/jk.jpg"
         }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/LbvE0FV_70U"
+        },
+        {
+          "link":"https://www.youtube.com/embed/4ujQOR2DMFM"
+        },
+        {
+          "link":"https://www.youtube.com/embed/GZjt_sA2eso"
+        }
       ]
     },
     {
@@ -1174,6 +1767,11 @@
         {
           "img": "assets/img/tmbmilpt2/jk.jpg"
         }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/wKysONrSmew"
+        }
       ]
     },
     {
@@ -1252,6 +1850,14 @@
         },
         {
           "img": "assets/img/tmbmilpt1/jk.jpg"
+        }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/BVwAVbKYYeM"
+        },
+        {
+          "link":"https://www.youtube.com/embed/jjskoRh8GTE"
         }
       ]
     },
@@ -1357,6 +1963,14 @@
         {
           "img": "assets/img/d&w/jk.jpg"
         }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/43r6lXilbcQ"
+        },
+        {
+          "link":"https://www.youtube.com/embed/Hhph0_CdUHg"
+        }
       ]
     },
     {
@@ -1441,6 +2055,14 @@
         {
           "img": "assets/img/skool_luv_affair/jk.jpg"
         }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/LHHjp3IMjMk"
+        },
+        {
+          "link":"https://www.youtube.com/embed/dzAwJW107nk"
+        }
       ]
     },
     {
@@ -1522,6 +2144,11 @@
         {
           "img": "assets/img/o_rul8_2/jk.jpg"
         }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/r5GaAEHvHj0"
+        }
       ]
     },
     {
@@ -1587,6 +2214,11 @@
         },
         {
           "img": "assets/img/2_cool_4_skool/jk.jpg"
+        }
+      ],
+      "ytLinks":[
+        {
+          "link":"https://www.youtube.com/embed/rBG5L7UsUxA"
         }
       ]
     }
