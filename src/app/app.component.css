@@ -6,7 +6,8 @@
 }
 
 .title {
-  margin-top: 0.5%;
+  margin-top: 1%;
+  padding-top: 1%;
   color: #fbf2fc;
   font-family: 'Domine', serif;
   font-size: 150%;
@@ -22,12 +23,12 @@ a:hover {
   vertical-align: middle;
 }
 
-.nav-link{
+.nav-link {
   color: #bababa;
   font-family: 'Domine', serif;
 }
 
-ion-icon{
+ion-icon {
   font-size: 120%;
   margin-left: 0.5%;
 }
@@ -42,36 +43,83 @@ ion-icon{
   color: white;
 }
 
-.du_button:hover{
+.du_button:hover {
   background-color: white;
   color: black;
 }
 
-.du_button:focus{
-box-shadow: none !important;
-background-color: white;
-border: white;
-color: black;
+.du_button:focus {
+  box-shadow: none !important;
+  background-color: white;
+  border: white;
+  color: black;
 }
 
-.du_button:active{
-box-shadow: none !important;
-background-color: white !important;
-border: white;
-color: black !important;
+.du_button:active {
+  box-shadow: none !important;
+  background-color: white !important;
+  border: white;
+  color: black !important;
 }
 
 
 .du {
   float: right;
-  margin-right:13%;
- 
+  margin-right: 13%;
 }
 
 .du_list {
   width: 300%;
+  height: 350px;
+  overflow-y: auto !important;
 }
 
-span {
+.mylist_span {
   margin-right: 5%;
+}
+
+footer {
+  color: #bababa;
+  background-color: #242423;
+  height: 5%;
+  text-align: center;
+  padding: 0.5%;
+}
+
+.pfpImg{
+  width: 1.8%;
+  left: 96%;
+  position: absolute;
+  border-radius: 50%;
+  vertical-align: middle;
+
+}
+
+.userName{
+  left: 89%;
+  position: absolute;
+  vertical-align: middle;
+}
+
+.listTitle{
+  font-size: 130%;
+  margin-left: 5%;
+
+}
+
+.listTitle_div{
+  border-bottom: rgb(37, 36, 36) 1px solid;
+  padding-bottom: 2.5%;
+}
+
+.trash{
+  float: right;
+}
+
+.trash:hover{
+  cursor:pointer;
+}
+
+.lista_li{
+  border-bottom: #bababa solid 1px;
 }

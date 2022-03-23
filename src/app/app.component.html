@@ -1,22 +1,22 @@
 <body>
     <div class="container-fluid title_div fixed-top">
         <div class="row">
-            <div class="col">
+            <div class="col d-flex justify-content-center">
                 <a routerLink="/home">
-                    <h1 class="title d-flex justify-content-center ">{{title | uppercase}}</h1>
+                    <h1 class="title">{{title | uppercase}}</h1>
                 </a>
-            </div>
-            <div class="col login_register">
                 <a *ngIf="this.authService.isLoggedIn()" routerLink="/account" class="nav-link" aria-current="page">
-                    {{ this.authService.username }}
-                    <ion-icon name="person-outline"></ion-icon>
+                    <span class="userName">
+                        {{ this.authService.username }}
+                    </span>
+                    <img [src]="this.authService.pfpImg" class="pfpImg">
                 </a>
-                <a *ngIf="!this.authService.isLoggedIn()" routerLink="/login" class="nav-link" aria-current="page">
+                <a *ngIf="!this.authService.isLoggedIn()" routerLink="/login" class="nav-link" aria-current="page"
+                    class="login_register">
                     Login/Register
                 </a>
             </div>
         </div>
-        <!--icon-->
     </div>
     <div class="hidden"></div>
     <router-outlet></router-outlet>
@@ -24,13 +24,21 @@
         <div class="row">
             <div class="col">
                 <div ngbDropdown placement="top-end" class="d-inline-block du">
-                    <button class="btn btn-outline-primary du_button" ngbDropdownToggle><span>My List</span></button>
+                    <button class="btn btn-outline-primary du_button" ngbDropdownToggle><span class="mylist_span">My
+                            List</span></button>
                     <div ngbDropdownMenu class="du_list" *ngIf="items">
-                        <span class="listTitle">Check Out Later:</span>
-                        <li ngbDropdownItem *ngFor="let item of items">{{item.listItem}}<ion-icon name="trash-outline" (click)="deleteListItem(item.id)"></ion-icon></li>
+                        <div class="listTitle_div">
+                            <span class="listTitle">Check Out Later:</span>
+                        </div>
+                        <li ngbDropdownItem *ngFor="let item of items" class="lista_li">{{item.listItem}}<ion-icon
+                                name="trash-outline" class="trash" (click)="deleteListItem(item.id)"></ion-icon>
+                        </li>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="">
+        <span>COPYRIGHT © 2021 BIG HIT MUSIC / HYBE. ALL RIGHTS RESERVED</span>
+    </footer>
 </body>

@@ -10,36 +10,81 @@
         </div>
       </div>
     </div>
-    <div class="row ">
-      <div class="col d-flex justify-content-center">
-      <h1>INFO</h1>
-    </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <div class="details_list d-flex justify-content-center">
-          <ul>
-            <li>Name: {{member.name}}</li>
-            <li>Stage name: {{member.stageName}}</li>
-            <li>Born: {{member.born}}</li>
-            <li>Age: {{member.age}}</li>
-            <li>Occupation: {{member.occupation}}</li>
-          </ul>
+    <div class="container">
+      <div class="row ">
+        <div class="col d-flex justify-content-center">
+          <h1 class="info_title">Info</h1>
         </div>
       </div>
-    </div>
-    <div class="row">
-      <div class="col">
-        <h1 class="solo_work_title">Solo Works</h1>
-        <div *ngIf="member.mixtapes">
-          <div *ngFor="let mixtape of member.mixtapes"></div>
-          <h1>{{mixtape.name}}</h1>
-          <div *ngFor="let song of mixtape.songs"></div>
-          <ol>
-            <li>{{song.song}}</li>
-          </ol>
+      <div class="row">
+        <div class="col">
+          <div class="details_list d-flex justify-content-center">
+            <ul>
+              <li class="details_li"><span class="dif_styling">Name: </span> {{member.name}}</li>
+              <li class="details_li"><span class="dif_styling">Stage name: </span>{{member.stageName}}</li>
+              <li class="details_li"><span class="dif_styling">Born: </span>{{member.born}}</li>
+              <li class="details_li"><span class="dif_styling">Age: </span>{{member.age}}</li>
+              <li class="details_li"><span class="dif_styling">Occupation: </span>{{member.occupation}}</li>
+            </ul>
+          </div>
         </div>
-        <!--YT Links-->
+      </div>
+      <div class="row">
+        <div class="col">
+          <h1 class="solo_work_title">Solo Works</h1>
+        </div>
+      </div>
+      <div *ngIf="member.mixtapes">
+        <div class="row">
+          <div class="col">
+            <h2 class="works_title ">Mixtapes:</h2>
+          </div>
+        </div>
+        <div class="row mixt_list">
+          <div class="mixt_col " *ngFor="let mixtape of member.mixtapes">
+            <div class="col">
+              <h3 class="mixtape_title">{{mixtape.name}}<ion-icon name="add-circle-outline"
+                (click)="addOnClick(mixtape.name)"></ion-icon></h3>
+              <div *ngFor="let song of mixtape.songs">
+                <ul>
+                  <li class="list">{{song.song}}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col">
+          <div *ngIf="member.soloSongs">
+            <h2 class="works_title">Songs:</h2>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div *ngFor="let songs of member.soloSongs">
+            <ul>
+              <li class="list">{{songs.song}}</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col d-flex justify-content-center">
+          <h1 class="mv_title">MV</h1>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center">
+        <div class="row ">
+          <div class="col">
+            <div *ngFor="let links of member.soloYtlinks">
+              <iframe width="700" height="500" [src]='links.link | safe'>
+              </iframe>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   </div>

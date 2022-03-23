@@ -1,10 +1,13 @@
 <div *ngIf="shows">
+    <ion-icon name="arrow-back-outline" class="arrow" (click)="goBack()"></ion-icon>
+    <h1 class="d-flex justify-content-center title">Variety shows</h1>
     <div class="container" *ngFor="let show of shows">
         <div class="row">
             <div class="col">
                 <div *ngIf="show.id%2!==0" class="show_disc">
-                    <h1 class="show_title">{{show.title}}</h1>
                     <img [src]="show.img" [alt]="show.title" class="show_img">
+                    <h1 class="show_title">{{show.title}}<ion-icon name="add-circle-outline"
+                        (click)="addOnClick(show.title)"></ion-icon></h1>
                     <p class="show_info">{{show.info}}</p>
                 </div>
             </div>
@@ -12,9 +15,25 @@
         <div class="row">
             <div class="col">
                 <div *ngIf="show.id%2==0" class="show_disc2">
-                    <h1 class="show_title">{{show.title}}</h1>
                     <img [src]="show.img" [alt]="show.title" class="placed_right_show">
+                    <h1 class="show_title">{{show.title}}<ion-icon name="add-circle-outline"
+                        (click)="addOnClick(show.title)"></ion-icon></h1>
                     <p class="show_info">{{show.info}}</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col d-flex justify-content-center">
+                <h1 class="trailer">TRAILER</h1>
+            </div>
+        </div>
+        <div class="d-flex justify-content-center">
+            <div class="row ">
+                <div class="col">
+                    <div>
+                        <iframe width="700" height="500" [src]='show.link | safe'>
+                        </iframe>
+                    </div>
                 </div>
             </div>
         </div>

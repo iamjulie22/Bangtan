@@ -1,6 +1,9 @@
 .show_img{
     width:30%;
     float: left;
+    margin-right: 5%;
+    -webkit-box-shadow: 5px 5px 30px 1px #000000;
+    box-shadow: 5px 5px 30px 1px #000000;
 }
 
 .show_title{
@@ -8,6 +11,10 @@
 }
 
 .show_info{
+    color: #bababa;
+    font-size: 25px;
+}
+show_info_left{
     color: #bababa;
     font-size: 25px;
 }
@@ -21,5 +28,46 @@
     margin-top: 5%;
 }
 .show_disc2{
-    margin-top: 25%;
+    margin-top: 5%;
 }
+
+iframe{
+    border: none;
+    margin-bottom: 5%;
+ }
+
+ .trailer{
+     color: white;
+     font-family: 'Domine', serif;
+     margin-top: 7%;
+     margin-bottom: 3%;
+ }
+
+ ion-icon{
+    margin-left: 1%;
+  }
+  
+  .arrow{
+    margin-top: 2%;
+    margin-left: 3%;
+    color: #bababa;
+    font-size: 200%;
+  }
+  
+  .arrow:hover{
+     cursor: pointer;
+  }
+
+  .title{
+    font-size: 300%;
+    font-family: 'Domine', serif;
+    color: white;
+  }
+
+  ion-icon{
+    margin-left: 1%;
+ }
+ 
+ ion-icon:hover{
+    cursor: pointer;
+ }

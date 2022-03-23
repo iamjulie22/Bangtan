@@ -1,3 +1,4 @@
+import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Album } from 'src/app/_models/album';
 import { AlbumService } from 'src/app/_services/album.service';
@@ -12,7 +13,7 @@ export class AlbumsComponent implements OnInit {
 
   albums: Album[]=[];
 
-  constructor(private albumService: AlbumService) { }
+  constructor(private albumService: AlbumService,private location: Location) { }
 
   ngOnInit(): void {
     this.getAlbums();
@@ -20,5 +21,8 @@ export class AlbumsComponent implements OnInit {
 
   getAlbums():void{
     this.albumService.getAllAlbums().subscribe(data=>this.albums = data);
+  }
+  goBack(): void {
+    this.location.back();
   }
 }

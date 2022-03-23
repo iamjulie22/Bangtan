@@ -33,6 +33,13 @@
                     [(ngModel)]="this.password2" name="pw2"
                     #name="ngModel">
             </div>
+            <div class="form-group p-3">
+                <label for="pfpImg">Profile Picture:</label>
+                <input type="file" class="form-control" id="pfpImg"
+                    required
+                    [(ngModel)]="this.pfpImg" name="pfImg"
+                    #name="ngModel">
+            </div>
 
             <button [disabled]="!registerForm.form.valid" type="submit" class="btn btn-primary my-3 mx-3">Register</button>
             <button routerLink='/login' type="button" class="btn btn-primary my-3 mx-3">Already have an account</button>

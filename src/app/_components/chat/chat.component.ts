@@ -1,10 +1,13 @@
+import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { NgbModalConfig, NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { first } from 'rxjs/operators';
 import { Message } from 'src/app/_models/message';
+import { User } from 'src/app/_models/user';
 import { AuthService } from 'src/app/_services/auth.service';
 import { ChatService } from 'src/app/_services/chat.service';
+import { ShopService } from 'src/app/_services/shop.service';
 
 @Component({
   selector: 'app-chat',
@@ -17,12 +20,16 @@ export class ChatComponent implements OnInit {
   messages = null;
   messageForm!: FormGroup;
   editMsgForm: FormGroup;
+  users: User[];
+  notLoggedInPfp:string;
 
   constructor(private chatService: ChatService,
     private fb: FormBuilder,
     public authService: AuthService,
     config: NgbModalConfig,
-    private modalService: NgbModal) {
+    private modalService: NgbModal,
+    private shopService: ShopService,
+    private location: Location) {
     config.backdrop = 'static';
     config.keyboard = false;
   }
@@ -32,7 +39,7 @@ export class ChatComponent implements OnInit {
     this.getMessages();
     this.createMessageForm();
     this.editMsgForm = this.fb.group({
-      message : ['',Validators.required]
+      message: ['', Validators.required]
     });
   }
 
@@ -51,9 +58,11 @@ export class ChatComponent implements OnInit {
       username: this.authService.username,
       message: this.messageForm.value.message
     }
+    if (this.messageForm.value.message) {
+      this.chatService.addMessage(obj).subscribe(() => { this.getMessages(); });
+      this.messageForm.reset();
 
-    this.chatService.addMessage(obj).subscribe(() => { this.getMessages(); });
-    this.messageForm.reset();
+    }
   }
 
   deleteChatMessage(id: number) {
@@ -72,14 +81,39 @@ export class ChatComponent implements OnInit {
 
   updateMessage(id: number) {
     const message = this.messages.find(x => x.id === id);
-    let obj:Message = {
-      username:this.authService.username,
-      message:this.editMsgForm.value.message
+    let obj: Message = {
+      username: this.authService.username,
+      message: this.editMsgForm.value.message
     }
-    this.chatService.updateMsg(id,obj )
-        .pipe(first())
-        .subscribe(()=>this.getMessages())
-}
+    this.chatService.updateMsg(id, obj)
+      .pipe(first())
+      .subscribe(() => this.getMessages())
+  }
+  goBack(): void {
+    this.location.back();
+  }
+
+  getUsers() {
+    this.shopService.getAllUsers().subscribe(data => {
+      setTimeout(() => {
+        this.users = data;
+        console.log(this.users);
+      }, 200);
+    });
+  }
+
+  getNotLoggedInpfp(){
+    const user = this.users.find(x => x.username===username);
+    setTimeout(() => {
+      if (user.pfpImg) {
+        return this.notLoggedInPfp = user.pfpImg;
+      }
+      else{
+        return this.notLoggedInPfp= "assets/img/pfp/basic.jpg"
+      }
+    }, 400);
+  }
+
 
 
 

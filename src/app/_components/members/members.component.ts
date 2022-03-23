@@ -1,3 +1,4 @@
+import { Location } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { Member } from 'src/app/_models/member';
 import { MemberService } from 'src/app/_services/member.service';
@@ -12,7 +13,7 @@ export class MembersComponent implements OnInit {
 
   members: Member[] = [];
 
-  constructor(private memberService: MemberService) { }
+  constructor(private memberService: MemberService,private location: Location) { }
 
   ngOnInit(): void {
     this.getMembers();
@@ -21,5 +22,9 @@ export class MembersComponent implements OnInit {
   getMembers(): void {
   this.memberService.getAllMembers()
       .subscribe(members => this.members = members);;
+  }
+
+  goBack(): void {
+    this.location.back();
   }
 }

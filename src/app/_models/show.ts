@@ -3,10 +3,5 @@ export interface Show{
           img: string;
           title:string;
           info: string;
-          links: [
-            {
-              linkId:number;
-              link: string;
-            }
-          ]
+          link: string;
         }

@@ -1,6 +1,5 @@
 .title{
   text-decoration: none;
-  margin-top: 50px;
   margin-bottom:50px ;
   font-size: 50px;
   font-family: 'Domine', serif;
@@ -38,4 +37,20 @@
 
 a {
   color: black;
+}
+
+
+ion-icon{
+  margin-left: 1%;
+}
+
+.arrow{
+  margin-top: 2%;
+  margin-left: 3%;
+  color: #bababa;
+  font-size: 200%;
+}
+
+.arrow:hover{
+   cursor: pointer;
 }

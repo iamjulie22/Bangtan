@@ -1,21 +1,32 @@
-.chat{
+.chat {
     background-color: #bababa;
-    margin-top: 3%;
-    height: 70%;
+    height: 65%;
     border-radius: 0.4rem;
     padding: 1%;
     overflow: auto;
 }
 
-#urn{
-    text-align: right;
-    padding-right: 1%;
-}
-#msg{
-    padding-left: 1%;
+#urn {
+    /* padding-right: 4%; */
+    font-family: 'Domine', serif;
+    font-weight: 600;
+    float: right;
 }
 
-.loggedIn_msg{
+#urn2 {
+    text-align: right;
+    padding-right: 5%;
+    font-family: 'Domine', serif;
+    font-weight: 600;
+    padding-top: 5%;
+}
+
+.msg {
+    padding-left: 5%;
+    font-size: 120%;
+}
+
+.loggedIn_msg {
     background-color: white;
     border-radius: 0.4rem;
     list-style: none;
@@ -24,28 +35,75 @@
 
 }
 
-.NotloggedIn_msg{
+.NotloggedIn_msg {
     background-color: grey;
     border-radius: 0.4rem;
     list-style: none;
     width: 40%;
     float: top;
-    margin-top:2%;
+    margin-top: 2%;
 }
 
-.input_message{
-    width: 50%;
+.input_message {
+    margin-top: 2%;
 }
 
-ion-icon{
+
+.input_message_part {
+    width: 100%;
+    margin-left: 25%;
+}
+
+ion-icon {
     color: white;
 }
 
 .dropdown-toggle::after {
-    display:none;
+    display: none;
 }
 
-.btn_editing{
-    float:right;
+.btn_editing {
+    float: right;
+    background-color: white;
+    font-size: 150%;
+    padding-bottom: 3%;
 }
 
+
+ion-icon {
+    margin-left: 1%;
+}
+
+.arrow {
+    margin-top: 2%;
+    margin-left: 3%;
+    color: #bababa;
+    font-size: 200%;
+}
+
+.arrow:hover {
+    cursor: pointer;
+}
+
+.test {
+    height: 89.5%;
+}
+
+.arrow_btn {
+    float: right;
+}
+
+.title {
+    font-size: 200%;
+    font-family: 'Domine', serif;
+    color: white;
+}
+
+.pfpImg {
+    width: 6%;
+    border-radius: 50%;
+    vertical-align: middle;
+    float: right;
+    margin-right: 2%;
+    margin-left: 1%;
+}

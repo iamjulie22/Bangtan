@@ -1,41 +1,88 @@
-<div class="container chat">
-    <ul *ngFor="let message of messages" class="msg_div">
-        <li *ngIf="this.authService.username === message.username" class="loggedIn_msg">
-            <div ngbDropdown>
-                <button type="button" class="btn_editing" ngbDropdownToggle>...</button>
-                <ul ngbDropdownMenu>
-                    <li ngbDropdownItem (click)="deleteChatMessage(this.message.id)">Delete</li>
-                    <li ngbDropdownItem class="btn btn-lg btn-outline-primary" (click)="open(content)">Edit</li>
-                    <ng-template #content let-c="close" let-d="dismiss">
-                        <div class="modal-header">
-                          <h4 class="modal-title" id="modal-basic-title">Edit message:</h4>
-                          <button type="button" class="btn-close" aria-label="Close" (click)="d('Cross click')"></button>
-                        </div>
-                        <div class="modal-body">
-                            <form [formGroup]="editMsgForm">
-                                <div class="form-group">
-                                    <input type="text" formControlName="message" class="form-control">
+<div class="container-fluid test">
+    <ion-icon name="arrow-back-outline" class="arrow" (click)="goBack()"></ion-icon>
+    <div class="row">
+        <div class="col d-flex justify-content-center">
+            <h1 class="title">Chat</h1>
+        </div>
+    </div>
+    <div class="container chat">
+        <div class="row">
+            <div class="col">
+                <ul *ngFor="let message of messages" class="msg_div">
+                    <li *ngIf="this.authService.username === message.username" class="loggedIn_msg">
+                        <div class="row">
+                            <div class="col ">
+                                <div ngbDropdown placement="top-right">
+                                    <button type="button" class="btn_editing" ngbDropdownToggle>...</button>
+                                    <ul ngbDropdownMenu>
+                                        <li ngbDropdownItem (click)="deleteChatMessage(this.message.id)">Delete</li>
+                                        <li ngbDropdownItem class="btn btn-lg btn-outline-primary"
+                                            (click)="open(content)">Edit
+                                        </li>
+                                        <ng-template #content let-c="close" let-d="dismiss">
+                                            <div class="modal-header">
+                                                <h4 class="modal-title" id="modal-basic-title">Edit message:</h4>
+                                                <button type="button" class="btn-close" aria-label="Close"
+                                                    (click)="d('Cross click')"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <form [formGroup]="editMsgForm">
+                                                    <div class="form-group">
+                                                        <input type="text" formControlName="message"
+                                                            class="form-control">
+                                                    </div>
+                                                </form>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-outline-dark"
+                                                    (click)="c(updateMessage(this.message.id))">Save</button>
+                                            </div>
+                                        </ng-template>
+                                    </ul>
                                 </div>
-                            </form>
+                            </div>
                         </div>
-                        <div class="modal-footer">
-                          <button type="button" class="btn btn-outline-dark" (click)="c(updateMessage(this.message.id))">Save</button>
+                        <div class="row">
+                            <div class="col">
+                                <img [src]="this.authService.pfpImg" class="pfpImg">
+                                <span id="urn">{{message.username}}</span>
+                            </div>
                         </div>
-                      </ng-template>
+                        <div class="row">
+                            <div class="col">
+                                <p class="msg">{{message.message}}</p>
+                            </div>
+                        </div>
+
+                    </li>
+                    <li *ngIf="this.authService.username !== message.username" class="NotloggedIn_msg">
+                        <div class="row">
+                            <div class="col">
+                                <img [src]="getNotLoggedInpfp(message.username)" class="pfpImg">
+                                <p id="urn2">{{message.username}}</p>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col">
+                                <p class="msg">{{message.message}}</p>
+                            </div>
+                        </div>
+                    </li>
                 </ul>
             </div>
-            <p id="urn">{{message.username}}</p>
-            <p id="msg">{{message.message}}</p>
-        </li>
-        <li *ngIf="this.authService.username !== message.username" class="NotloggedIn_msg">
-            <p id="urn">{{message.username}}</p>
-            <p id="msg">{{message.message}}</p>
-        </li>
-    </ul>
-    <form [formGroup]="messageForm" (ngSubmit)="onSubmit()" class="container fixed-bottom input_message">
-        <div class="form-group ">
-            <input type="text" class="form-control" required formControlName="message" placeholder="Type something...">
-            <ion-icon name="send-outline" type="submit" class="btn" (click)="onSubmit()"></ion-icon>
+        </div>
+    </div>
+    <form [formGroup]="messageForm" (ngSubmit)="onSubmit()" class="container input_message">
+        <div class="form-group">
+            <div class="row input_message_part">
+                <div class="col ">
+                    <input type="text" class="form-control " required formControlName="message"
+                        placeholder="Type something...">
+                </div>
+                <div class="col arrow_btn">
+                    <ion-icon name="send-outline" type="submit" class="btn" (click)="onSubmit()"></ion-icon>
+                </div>
+            </div>
         </div>
     </form>
 </div>

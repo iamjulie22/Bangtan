@@ -18,6 +18,10 @@
 ion-icon{
    margin-left: 1%;
 }
+
+ion-icon:hover{
+   cursor: pointer;
+}
 .album_info_text {
    margin-left: 45%;
    color: #bababa;

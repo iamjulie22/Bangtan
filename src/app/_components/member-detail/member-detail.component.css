@@ -1,12 +1,14 @@
 .member_info{
    width: 80%;
    margin-top: 2%;
-   height: 1000px;
+   height: 100%;
 }
 
 .member_photo{
    width: 40%;
    float: left;
+   -webkit-box-shadow: 5px 5px 30px 1px #000000;
+   box-shadow: 5px 5px 30px 1px #000000;
 }
 
 .member_stageName{
@@ -20,12 +22,12 @@
 }
 
 .details_list{
-   margin-top: 5%;
    font-size: 25px;
    color: #bababa;
+   margin-bottom: 5%;
 }
 
-ul li{
+.details_li{
   list-style: none;
 }
 
@@ -33,6 +35,8 @@ ul li{
    color: white;
    font-family: 'Domine', serif;
    margin-top: 5%;
+   font-size: 250%;
+   margin-bottom: 5%;
 }
 
 p{
@@ -48,5 +52,66 @@ p{
 }
 
 .arrow:hover{
+   cursor: pointer;
+}
+
+.mixtape_title{
+   color: #bababa;
+   
+}
+
+.list{
+   color: #bababa;
+}
+
+.works_title{
+   color: white;
+   font-family: 'Domine', serif;
+   margin-bottom: 2%;
+}
+
+.test{
+   height: 500px;
+}
+
+.mixt_list{
+   margin-bottom: 5%;
+}
+
+.info_title{
+   color: white;
+   font-family: 'Domine', serif;
+   margin-top: 7%;
+   font-size: 250%;
+   margin-bottom: 4%;
+}
+
+.dif_styling{
+   color: white;
+   font-family: 'Domine', serif;
+}
+
+iframe{
+   border: none;
+   margin-bottom: 10%;
+}
+
+.mv_title{
+   font-family: 'Domine', serif;
+   margin-bottom: 5%;
+   color: white;
+   font-size: 200%;
+ }
+
+ .mixt_col{
+    margin-right: 5%;
+ }
+
+ ion-icon{
+   margin-left: 1%;
+   vertical-align: middle;
+}
+
+ion-icon:hover{
    cursor: pointer;
 }

@@ -26,3 +26,18 @@
     font-family: 'Domine', serif;
       margin-top: 2%;
 }
+
+ion-icon{
+  margin-left: 1%;
+}
+
+.arrow{
+  margin-top: 2%;
+  margin-left: 3%;
+  color: #bababa;
+  font-size: 200%;
+}
+
+.arrow:hover{
+   cursor: pointer;
+}

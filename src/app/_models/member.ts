@@ -13,8 +13,8 @@ export interface Member {
         {
             song: string;
         } 
-    ]
-    mixtapes: [
+    ],
+    mixtapes?: [
         {
             name: string;
             songs: [
@@ -23,7 +23,7 @@ export interface Member {
                 }
             ]
         }
-    ]
+    ],
     soloYtlinks:[
         {
           link:string;

@@ -1,7 +1,9 @@
 import { Location } from '@angular/common';
-import { Component, Input, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
+import { ListItem } from 'src/app/_models/listItem';
 import { Member } from 'src/app/_models/member';
+import { ListService } from 'src/app/_services/list.service';
 import { MemberService } from 'src/app/_services/member.service';
 
 
@@ -13,15 +15,18 @@ import { MemberService } from 'src/app/_services/member.service';
 export class MemberDetailComponent implements OnInit {
 
   member!: Member;
+  items: ListItem[] = [];
 
   constructor(
     private route: ActivatedRoute,
     private memberService: MemberService,
-    private location: Location
+    private location: Location,
+    private listService: ListService
   ) {}
 
   ngOnInit(): void {
     this.getMemberById();
+    this.getListItems();
   }
 
   getMemberById(): void {
@@ -33,4 +38,17 @@ export class MemberDetailComponent implements OnInit {
   goBack(): void {
     this.location.back();
   }
+
+  getListItems(): void {
+    this.listService.getAllListItem().subscribe(data => this.items = data); //nem jó
+  }
+  
+  addOnClick(title: string) {
+    let obj: ListItem = {
+      listItem: title
+    }
+    this.listService.addListItem(obj).subscribe(() => {
+      this.getListItems(); //nem működik 
+    });
+}
 }

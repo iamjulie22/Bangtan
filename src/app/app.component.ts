@@ -1,6 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 import { first } from 'rxjs/operators';
-import { ListItem } from './_models/listItem';
 import { AuthService } from './_services/auth.service';
 import { ListService } from './_services/list.service';
 
@@ -22,6 +21,7 @@ export class AppComponent implements OnInit {
     .pipe(first())
     .subscribe(items => this.items = items);
     setTimeout(() => this.authService.getUsername(), 100);
+    setTimeout(() => this.authService.getPfpImg(), 100);
   }
 
   deleteListItem(id:number){
@@ -31,5 +31,4 @@ export class AppComponent implements OnInit {
     .pipe(first())
     .subscribe(()=>this.items = this.items.filter(x=>x.id !== id)) : "";
   }
-
 }
