@@ -1,5 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Domine&display=swap');
 
+body{
+  height: 100% !important;
+}
+
+/*Title container,register/login*/
+
 .title_div {
   background-color: rgba(0, 0, 0, 0.2);
   height: 40px;
@@ -13,28 +19,47 @@
   font-size: 150%;
 }
 
-a:hover {
-  text-decoration: none;
-}
-
-.login_register {
-  left: 88%;
-  position: absolute;
-  vertical-align: middle;
-}
-
 .nav-link {
   color: #bababa;
   font-family: 'Domine', serif;
 }
 
-ion-icon {
-  font-size: 120%;
-  margin-left: 0.5%;
+a:hover {
+  text-decoration: none;
 }
+
+.userName {
+  left: 91%;
+  position: absolute;
+  vertical-align: middle;
+}
+
+.pfpImg {
+  width: 15%;
+  border-radius: 50%;
+  vertical-align: middle;
+
+}
+
+.login_register {
+  left: 88%;
+  position: absolute;
+  color: #bababa;
+  margin-top: 0.5%;
+}
+
+
+/*Hidden div*/
 
 .hidden {
   height: 41px;
+}
+
+/*Dropdown*/
+
+.du {
+  float: right;
+  margin-right: 13%;
 }
 
 .du_button {
@@ -63,9 +88,8 @@ ion-icon {
 }
 
 
-.du {
-  float: right;
-  margin-right: 13%;
+.mylist_span {
+  margin-right: 5%;
 }
 
 .du_list {
@@ -74,9 +98,35 @@ ion-icon {
   overflow-y: auto !important;
 }
 
-.mylist_span {
-  margin-right: 5%;
+.listTitle_div {
+  border-bottom: rgb(37, 36, 36) 1px solid;
+  padding-bottom: 2.5%;
 }
+
+.listTitle {
+  font-size: 130%;
+  margin-left: 5%;
+
+}
+
+.lista_li {
+  border-bottom: #bababa solid 1px;
+}
+
+.trash {
+  float: right;
+}
+
+.trash:hover {
+  cursor: pointer;
+}
+
+ion-icon {
+  font-size: 120%;
+  margin-left: 0.5%;
+}
+
+/*Footer*/
 
 footer {
   color: #bababa;
@@ -84,42 +134,4 @@ footer {
   height: 5%;
   text-align: center;
   padding: 0.5%;
-}
-
-.pfpImg{
-  width: 1.8%;
-  left: 96%;
-  position: absolute;
-  border-radius: 50%;
-  vertical-align: middle;
-
-}
-
-.userName{
-  left: 89%;
-  position: absolute;
-  vertical-align: middle;
-}
-
-.listTitle{
-  font-size: 130%;
-  margin-left: 5%;
-
-}
-
-.listTitle_div{
-  border-bottom: rgb(37, 36, 36) 1px solid;
-  padding-bottom: 2.5%;
-}
-
-.trash{
-  float: right;
-}
-
-.trash:hover{
-  cursor:pointer;
-}
-
-.lista_li{
-  border-bottom: #bababa solid 1px;
 }

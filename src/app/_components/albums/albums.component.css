@@ -1,43 +1,44 @@
-.album_img{
-    width: 100%;
- 
-}
+/*Back Arrow*/
 
-.grid-container{
-    display: grid;
-    grid-template-columns: 25% 25% 25%;
-    justify-content: center;
-  margin-bottom: 5%;
-}
-
-.grid-container div{
-    text-align: center;
-    margin-left: 5%;
-    margin-top: 5%;
-}
-
-.grid-container div:hover{
-    transform: scale(1.1);
-    transition: .8s;
-  }
-
-.album{
-    color: white;
-    font-family: 'Domine', serif;
-      margin-top: 2%;
-}
-
-ion-icon{
+.arrow {
   margin-left: 1%;
-}
-
-.arrow{
   margin-top: 2%;
   margin-left: 3%;
   color: #bababa;
   font-size: 200%;
 }
 
-.arrow:hover{
-   cursor: pointer;
+.arrow:hover {
+  cursor: pointer;
+}
+
+/*Albums*/
+
+.album {
+  color: white;
+  font-family: 'Domine', serif;
+  margin-top: 2%;
+  font-size: 250%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 25% 25% 25%;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.grid-container div {
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.grid-container div:hover {
+  transform: scale(1.1);
+  transition: .8s;
+}
+
+.album_img {
+  width: 100%;
 }

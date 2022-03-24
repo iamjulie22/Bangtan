@@ -14,35 +14,32 @@ const httpOption = {
 
 export class ChatService {
 
-
     constructor(private http: HttpClient) { }
 
     getAllMessages() {
         return this.http.get<Message[]>(`${environment.apiUrl}/messages`, httpOption);
     }
 
-    addMessage(message:Message){
-        return this.http.post<Message>(`${environment.apiUrl}/messages`,message,httpOption).pipe(
-            tap(message=>console.log(`inserted message = ${JSON.stringify(message)}`)),
-            catchError(error=>error)
+    addMessage(message: Message) {
+        return this.http.post<Message>(`${environment.apiUrl}/messages`, message, httpOption).pipe(
+            tap(message => console.log(`inserted message = ${JSON.stringify(message)}`)),
+            catchError(error => error)
         );
     }
 
-    deleteChatMsg(id:number){
-        return this.http.delete(`${environment.apiUrl}/messages/${id}`,httpOption)
-        .pipe(map(x=>{
-            return x;
-        }));
+    deleteChatMsg(id: number) {
+        return this.http.delete(`${environment.apiUrl}/messages/${id}`, httpOption)
+            .pipe(map(x => {
+                return x;
+            }));
     }
 
-    updateMsg(id,message:Message){
-        return this.http.put(`${environment.apiUrl}/messages/${id}`,message,httpOption)
-        .pipe(map(x=>{
-            return x; 
-        }),
-        catchError(error=>error));
+    updateMsg(id, message: Message) {
+        return this.http.put(`${environment.apiUrl}/messages/${id}`, message, httpOption)
+            .pipe(map(x => {
+                return x;
+            }),
+                catchError(error => error));
     }
-
-
 
 }

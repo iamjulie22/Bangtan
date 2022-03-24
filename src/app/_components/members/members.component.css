@@ -1,56 +1,59 @@
-.title{
-  text-decoration: none;
-  margin-bottom:50px ;
-  font-size: 50px;
-  font-family: 'Domine', serif;
-  color: white;
-}
+/*Back Arrow*/
 
-.card {
-   border: none;
-    margin-bottom: 50px;
-    -webkit-box-shadow: 5px 5px 30px 1px #000000;
-    box-shadow: 5px 5px 30px 1px #000000;
-    border-radius: 0.4rem;
-    color: white;
-}
-
-.card-body{
-  background-color: #bababa;
-  border-radius: 0rem 0rem 0.4rem  0.4rem ;
-}
-
-.card-title{
-  color: white;
-}
-
-.card-title:hover{
-  text-decoration: underline white;
-}
-
-.card:hover{
-  transform: scale(1.1);
-  transition: .8s;
-}
-
-
-
-a {
-  color: black;
-}
-
-
-ion-icon{
-  margin-left: 1%;
-}
-
-.arrow{
+.arrow {
   margin-top: 2%;
   margin-left: 3%;
   color: #bababa;
   font-size: 200%;
 }
 
-.arrow:hover{
-   cursor: pointer;
+.arrow:hover {
+  cursor: pointer;
+}
+
+ion-icon {
+  margin-left: 1%;
+}
+
+/*Title*/
+
+.title {
+  text-decoration: none;
+  margin-bottom: 50px;
+  font-size: 50px;
+  font-family: 'Domine', serif;
+  color: white;
+}
+
+/*Cards*/
+
+.card {
+  border: none;
+  margin-bottom: 50px;
+  -webkit-box-shadow: 5px 5px 30px 1px #000000;
+  box-shadow: 5px 5px 30px 1px #000000;
+  border-radius: 0.4rem;
+  color: white;
+}
+
+.card:hover {
+  transform: scale(1.1);
+  transition: .8s;
+}
+
+.card-body {
+  background-color: #bababa;
+  border-radius: 0rem 0rem 0.4rem 0.4rem;
+}
+
+.card-title {
+  color: white;
+}
+
+.card-title:hover {
+  text-decoration: underline white;
+}
+
+a {
+  color: black;
 }

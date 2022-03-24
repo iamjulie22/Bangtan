@@ -44,7 +44,8 @@
           <div class="mixt_col " *ngFor="let mixtape of member.mixtapes">
             <div class="col">
               <h3 class="mixtape_title">{{mixtape.name}}<ion-icon name="add-circle-outline"
-                (click)="addOnClick(mixtape.name)"></ion-icon></h3>
+                  (click)="addOnClick(mixtape.name)"></ion-icon>
+              </h3>
               <div *ngFor="let song of mixtape.songs">
                 <ul>
                   <li class="list">{{song.song}}</li>
@@ -54,7 +55,6 @@
           </div>
         </div>
       </div>
-
       <div class="row">
         <div class="col">
           <div *ngIf="member.soloSongs">

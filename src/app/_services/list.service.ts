@@ -22,17 +22,17 @@ export class ListService {
     }
 
     addListItem(item: ListItem) {
-        return this.http.post<ListItem>(`${environment.apiUrl}/list`,item,httpOption).pipe(
-        tap(item => console.log(`inserted item = ${JSON.stringify(item)}`)),
-        catchError(error => error));
+        return this.http.post<ListItem>(`${environment.apiUrl}/list`, item, httpOption).pipe(
+            tap(item => console.log(`inserted item = ${JSON.stringify(item)}`)),
+            catchError(error => error));
 
     }
 
-    deleteItem(id:number){
+    deleteItem(id: number) {
         return this.http.delete(`${environment.apiUrl}/list/${id}`)
-        .pipe(map(x=>{
-            return x;
-        }));
+            .pipe(map(x => {
+                return x;
+            }));
 
     }
 }

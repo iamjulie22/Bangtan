@@ -21,7 +21,6 @@ export class ChatComponent implements OnInit {
   messageForm!: FormGroup;
   editMsgForm: FormGroup;
   users: User[];
-  notLoggedInPfp:string;
 
   constructor(private chatService: ChatService,
     private fb: FormBuilder,
@@ -56,6 +55,7 @@ export class ChatComponent implements OnInit {
   onSubmit() {
     let obj: Message = {
       username: this.authService.username,
+      pfpImg:this.authService.pfpImg,
       message: this.messageForm.value.message
     }
     if (this.messageForm.value.message) {
@@ -83,6 +83,7 @@ export class ChatComponent implements OnInit {
     const message = this.messages.find(x => x.id === id);
     let obj: Message = {
       username: this.authService.username,
+      pfpImg:this.authService.pfpImg,
       message: this.editMsgForm.value.message
     }
     this.chatService.updateMsg(id, obj)
@@ -100,18 +101,6 @@ export class ChatComponent implements OnInit {
         console.log(this.users);
       }, 200);
     });
-  }
-
-  getNotLoggedInpfp(){
-    const user = this.users.find(x => x.username===username);
-    setTimeout(() => {
-      if (user.pfpImg) {
-        return this.notLoggedInPfp = user.pfpImg;
-      }
-      else{
-        return this.notLoggedInPfp= "assets/img/pfp/basic.jpg"
-      }
-    }, 400);
   }
 
 

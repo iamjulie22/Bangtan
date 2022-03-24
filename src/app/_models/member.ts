@@ -12,7 +12,7 @@ export interface Member {
     soloSongs: [
         {
             song: string;
-        } 
+        }
     ],
     mixtapes?: [
         {
@@ -24,9 +24,9 @@ export interface Member {
             ]
         }
     ],
-    soloYtlinks:[
+    soloYtlinks: [
         {
-          link:string;
+            link: string;
         }
     ]
 }

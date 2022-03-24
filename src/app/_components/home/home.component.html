@@ -1,6 +1,6 @@
-<div class="container-fluid d-flex justify-content-center">
+<div class="container">
     <div class="row">
-        <div class="col">
+        <div class="col d-flex justify-content-center">
             <img class="main" src="assets/img/BE/be_group.jpg" alt="BE_GROUP_PHOTO">
             <div class="container nav_items">
                 <div class="row">
@@ -10,116 +10,100 @@
                             <a routerLink="/members" class="nav_a">Members</a>
                             <a routerLink="/albums" class="nav_a">Discography</a>
                             <a routerLink="/shows" class="nav_a">Shows</a>
-                            <div *ngIf="this.authService.isLoggedIn()" class="nav_a"><a routerLink="/chat" class="chat">Chat</a></div>
-                            <div *ngIf="!this.authService.isLoggedIn()" class="nav_a"><a routerLink="/login" class="chat">Chat</a></div>
-
+                            <div *ngIf="this.authService.isLoggedIn()" class="nav_a"><a routerLink="/chat"
+                                    class="chat">Chat</a></div>
+                            <div *ngIf="!this.authService.isLoggedIn()" class="nav_a"><a routerLink="/login"
+                                    class="chat">Chat</a></div>
                         </nav>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<div class="container-fluid">
     <div class="row">
         <div class="col">
             <h1 class="band_name d-flex justify-content-center">BTS</h1>
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <p class="about_bts">BTS, an acronym of Bangtan Sonyeondan or “Beyond the Scene,” is a
-                            Grammy-nominated
-                            South
-                            Korean group
-                            that has been capturing the hearts of millions of fans globally since its debut in June
-                            2013.
-                            The members of BTS are RM, Jin, SUGA, j-hope, Jimin, V, and Jung Kook. Gaining recognition
-                            for
-                            their authentic and self-produced music, top-notch performances, and the way they interact
-                            with
-                            their fans,
-                            BTS has established themselves as “21st century Pop Icons” breaking countless world records.
-                            While imparting a positive influence through activities such as the LOVE MYSELF campaign and
-                            the UN
-                            ‘Speak Yourself’ speech, the band has mobilized millions of fans across the world (named
-                            ARMY),
-                            collected four No. 1 songs in a span of 9 months, performed multiple sold-out stadium shows
-                            across
-                            the world, and been named TIME’s Entertainer of the Year 2020. BTS has been nominated for
-                            Best Pop Duo/Group Performance for the 63rd Grammy Awards and recognized with numerous
-                            prestigious
-                            awards like the Billboard Music Awards, American Music Awards and MTV Video Music Awards.
-                        </p>
-                        <hr>
-                    </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p class="about_bts">BTS, an acronym of Bangtan Sonyeondan or “Beyond the Scene,” is a
+                Grammy-nominated
+                South
+                Korean group
+                that has been capturing the hearts of millions of fans globally since its debut in June
+                2013.
+                The members of BTS are RM, Jin, SUGA, j-hope, Jimin, V, and Jung Kook. Gaining recognition
+                for
+                their authentic and self-produced music, top-notch performances, and the way they interact
+                with
+                their fans,
+                BTS has established themselves as “21st century Pop Icons” breaking countless world records.
+                While imparting a positive influence through activities such as the LOVE MYSELF campaign and
+                the UN
+                ‘Speak Yourself’ speech, the band has mobilized millions of fans across the world (named
+                ARMY),
+                collected four No. 1 songs in a span of 9 months, performed multiple sold-out stadium shows
+                across
+                the world, and been named TIME’s Entertainer of the Year 2020. BTS has been nominated for
+                Best Pop Duo/Group Performance for the 63rd Grammy Awards and recognized with numerous
+                prestigious
+                awards like the Billboard Music Awards, American Music Awards and MTV Video Music Awards.
+            </p>
+            <hr>
+        </div>
+    </div>
+    <div class="row social_media_list_row">
+        <div class="col">
+            <img class="gq_photo" src="assets/img/gq_korea/group.jpg" alt="GQ_KOREA_GROUP_PHOTO">
+            <div class="list">
+                <h1 class="sm_list_title">Social Media</h1>
+                <div class="d-flex justify-content-end">
+                    <ul>
+                        <a href="https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ" target="_blank">
+                            <li>YouTube</li>
+                        </a>
+                        <a href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX" target="_blank">
+                            <li>Spotify</li>
+                        </a>
+                        <a href="https://twitter.com/bts_bighit" target="_blank">
+                            <li>Twitter</li>
+                        </a>
+                        <a href="https://www.instagram.com/bts.bighitofficial/" target="_blank">
+                            <li>Instagram</li>
+                        </a>
+                        <a href="https://www.facebook.com/bangtan.official" target="_blank">
+                            <li>Facebook</li>
+                        </a>
+                        <a href="https://www.weverse.io/" target="_blank">
+                            <li>Weverse</li>
+                        </a>
+                    </ul>
                 </div>
+            </div>
+            <div class="yt_video">
+                <iframe width="420" height="315"
+                    src="https://www.youtube.com/embed/?v=WMweEpGlu_U&list=PLwN_wMJhvydYmpST5YaGouq6JcmyVyQB0">
+                </iframe>
             </div>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <div class="container social_media_contaeiner">
-                <div class="row">
-                    <div class="col">
-                        <img class="gq_photo" src="assets/img/gq_korea/group.jpg" alt="GQ_KOREA_GROUP_PHOTO">
-                        <div class="list">
-                            <h1 class="sm_list_title">Social Media</h1>
-                            <div class="d-flex justify-content-end">
-                                <ul>
-                                    <a href="https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ" target="_blank">
-                                        <li>YouTube</li>
-                                    </a>
-                                    <a href="https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX" target="_blank">
-                                        <li>Spotify</li>
-                                    </a>
-                                    <a href="https://twitter.com/bts_bighit" target="_blank">
-                                        <li>Twitter</li>
-                                    </a>
-                                    <a href="https://www.instagram.com/bts.bighitofficial/" target="_blank">
-                                        <li>Instagram</li>
-                                    </a>
-                                    <a href="https://www.facebook.com/bangtan.official" target="_blank">
-                                        <li>Facebook</li>
-                                    </a>
-                                    <a href="https://www.weverse.io/" target="_blank">
-                                        <li>Weverse</li>
-                                    </a>
-                                </ul>
-                            </div>
-                        </div>
-                        
-                        <div class="yt_video">
-                            <iframe width="420" height="315"
-                                src="https://www.youtube.com/embed/?v=WMweEpGlu_U&list=PLwN_wMJhvydYmpST5YaGouq6JcmyVyQB0">
-                            </iframe>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <hr>
-                    </div>
-                </div>
-            </div>
+            <hr>
         </div>
     </div>
     <div class="row">
         <div class="col">
-            <div class="container info_of_label">
-                <div class="row">
-                    <div class="col">
-                        <h1 class="BM_title">BIGHIT MUSIC</h1>
-                        <p class="about_bm">BIGHIT MUSIC is an industry-leading music label that continues to pioneer
-                            new paths
-                            driven by a strong belief in music and ceaseless support from fans.
-                            BIGHIT strives to create music heretofore unseen in the world through its inimitable way,
-                            creating
-                            the music
-                            that symbolizes an era that can resonate with fans across the world.
-                            Artists under the label includes Lee Hyun, BTS and TOMORROW X TOGETHER.</p>
-                    </div>
-                </div>
-            </div>
+            <h1 class="BM_title">BIGHIT MUSIC</h1>
+            <p class="about_bm">BIGHIT MUSIC is an industry-leading music label that continues to pioneer
+                new paths
+                driven by a strong belief in music and ceaseless support from fans.
+                BIGHIT strives to create music heretofore unseen in the world through its inimitable way,
+                creating
+                the music
+                that symbolizes an era that can resonate with fans across the world.
+                Artists under the label includes Lee Hyun, BTS and TOMORROW X TOGETHER.</p>
         </div>
     </div>
 </div>

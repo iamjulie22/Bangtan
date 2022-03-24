@@ -1,23 +1,23 @@
 export interface Album {
-  id:number;
+  id: number;
   albumTitle: string;
-  albumImg:string;
-  info:string;
+  albumImg: string;
+  info: string;
   trackList: [
     {
-      id:number;
-      songTitle:string;
-      songLength:string;
+      id: number;
+      songTitle: string;
+      songLength: string;
     }
   ]
-  conceptPhotos:[
-     {
-       img:string;
-     }
-  ]
-  ytLinks:[
+  conceptPhotos: [
     {
-      link:string;
+      img: string;
+    }
+  ]
+  ytLinks: [
+    {
+      link: string;
     }
   ]
 }

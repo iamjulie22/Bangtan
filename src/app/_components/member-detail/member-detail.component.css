@@ -1,84 +1,47 @@
-.member_info{
+/*Back Arrow,ion-icons*/
+
+.arrow {
+   margin-top: 2%;
+   margin-left: 3%;
+   color: #bababa;
+   font-size: 200%;
+}
+
+ion-icon {
+   margin-left: 1%;
+   vertical-align: middle;
+}
+
+ion-icon:hover {
+   cursor: pointer;
+}
+
+/*Info about member*/
+
+.member_info {
    width: 80%;
    margin-top: 2%;
    height: 100%;
 }
 
-.member_photo{
+.member_photo {
    width: 40%;
    float: left;
    -webkit-box-shadow: 5px 5px 30px 1px #000000;
    box-shadow: 5px 5px 30px 1px #000000;
 }
 
-.member_stageName{
-   color: white;
-}
-
-.member_info_text{
+.member_info_text {
    margin-left: 45%;
    color: #bababa;
    font-size: 25px;
 }
 
-.details_list{
-   font-size: 25px;
-   color: #bababa;
-   margin-bottom: 5%;
-}
-
-.details_li{
-  list-style: none;
-}
-
-.solo_work_title{
+.member_stageName {
    color: white;
-   font-family: 'Domine', serif;
-   margin-top: 5%;
-   font-size: 250%;
-   margin-bottom: 5%;
 }
 
-p{
-   color: #bababa;
-   font-size: 25px;
-}
-
-.arrow{
-  margin-top: 2%;
-  margin-left: 3%;
-  color: #bababa;
-  font-size: 200%;
-}
-
-.arrow:hover{
-   cursor: pointer;
-}
-
-.mixtape_title{
-   color: #bababa;
-   
-}
-
-.list{
-   color: #bababa;
-}
-
-.works_title{
-   color: white;
-   font-family: 'Domine', serif;
-   margin-bottom: 2%;
-}
-
-.test{
-   height: 500px;
-}
-
-.mixt_list{
-   margin-bottom: 5%;
-}
-
-.info_title{
+.info_title {
    color: white;
    font-family: 'Domine', serif;
    margin-top: 7%;
@@ -86,32 +49,71 @@ p{
    margin-bottom: 4%;
 }
 
-.dif_styling{
+.details_list {
+   font-size: 25px;
+   color: #bababa;
+   margin-bottom: 5%;
+}
+
+.details_li {
+   list-style: none;
+}
+
+.dif_styling {
    color: white;
    font-family: 'Domine', serif;
 }
 
-iframe{
-   border: none;
-   margin-bottom: 10%;
+
+p {
+   color: #bababa;
+   font-size: 25px;
 }
 
-.mv_title{
+/*Solo Work*/
+
+.solo_work_title {
+   color: white;
+   font-family: 'Domine', serif;
+   margin-top: 5%;
+   font-size: 250%;
+   margin-bottom: 5%;
+}
+
+.works_title {
+   color: white;
+   font-family: 'Domine', serif;
+   margin-bottom: 2%;
+}
+
+.mixt_list {
+   margin-bottom: 5%;
+}
+
+.mixt_col {
+   margin-right: 5%;
+}
+
+.mixtape_title {
+   color: #bababa;
+
+}
+
+
+.list {
+   color: #bababa;
+}
+
+/*MV*/
+
+.mv_title {
    font-family: 'Domine', serif;
    margin-bottom: 5%;
    color: white;
    font-size: 200%;
- }
-
- .mixt_col{
-    margin-right: 5%;
- }
-
- ion-icon{
-   margin-left: 1%;
-   vertical-align: middle;
 }
 
-ion-icon:hover{
-   cursor: pointer;
+iframe {
+   border: none;
+   margin-bottom: 10%;
 }

@@ -8,7 +8,6 @@
                     <h1 class="album_title">{{album.albumTitle}} <ion-icon name="add-circle-outline"
                             (click)="addOnClick()"></ion-icon>
                     </h1>
-
                     <p>{{album.info}}</p>
                 </div>
             </div>
@@ -19,9 +18,10 @@
                     <div class="col details_list">
                         <h1 class="tracks d-flex justify-content-center">TRACKS</h1>
                         <ul *ngFor="let tracklist of album.trackList">
-                            <li><span class="song_id">{{tracklist.id}}</span><span
-                                    class="song_title">{{tracklist.songTitle}}</span><span
-                                    class="song_length">{{tracklist.songLength}}</span></li>
+                            <li><span class="song_id">{{tracklist.id}}</span>
+                                <span class="song_title">{{tracklist.songTitle}}</span>
+                                <span class="song_length">{{tracklist.songLength}}</span>
+                            </li>
                         </ul>
                     </div>
                 </div>

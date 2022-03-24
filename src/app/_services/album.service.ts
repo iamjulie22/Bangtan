@@ -5,33 +5,21 @@ import { Album } from "../_models/album";
 
 
 const httpOption = {
-    headers: new HttpHeaders({'Content-Type':'application/json'})
-  };
-  
-  @Injectable({
-    providedIn: 'root'
-  })
-  export class AlbumService {
-  
-    constructor(private http: HttpClient) { }
-  
-    getAllAlbums(){
-     return this.http.get<Album[]>(`${environment.apiUrl}/albums`,httpOption);
-    }
+  headers: new HttpHeaders({ 'Content-Type': 'application/json' })
+}
 
-    getAlbumById(albumId: Number){
-      return this.http.get<Album>(`${environment.apiUrl}/albums/${albumId}`,httpOption);
-    }
+@Injectable({
+  providedIn: 'root'
+})
+export class AlbumService {
 
-    // addSong(song:Song){
-    //   return this.http.post<Song>(`${environment.apiURL}/songs`,song,httpOption).pipe(
-    //     catchError(error => error)
-    //     );
-    // }
+  constructor(private http: HttpClient) { }
 
-    // deleteSong(songId:Number){
-    //   return this.http.delete<Song>(`${environment.apiURL}/songs/${songId}`,httpOption).pipe(
-    //     catchError(error=> error)
-    //     );
-    // }
+  getAllAlbums() {
+    return this.http.get<Album[]>(`${environment.apiUrl}/albums`, httpOption);
+  }
+
+  getAlbumById(albumId: Number) {
+    return this.http.get<Album>(`${environment.apiUrl}/albums/${albumId}`, httpOption);
+  }
 }

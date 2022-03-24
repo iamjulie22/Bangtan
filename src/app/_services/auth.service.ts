@@ -5,12 +5,12 @@ import { User } from '../_models/user';
   providedIn: 'root'
 })
 export class AuthService {
-
-  constructor() { }
-
+  
   user: User;
   username: string;
-  pfpImg:string;
+  pfpImg: string;
+  
+  constructor() { }
 
   isLoggedIn() {
 
@@ -42,9 +42,10 @@ export class AuthService {
       if (this.user.pfpImg) {
         this.pfpImg = this.user.pfpImg;
       }
-      else{
-        this.pfpImg= "assets/img/pfp/basic.jpg"
+      else {
+        this.pfpImg = "assets/img/pfp/basic.jpg"
       }
     }, 400);
   }
+
 }

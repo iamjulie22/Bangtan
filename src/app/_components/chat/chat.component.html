@@ -44,7 +44,7 @@
                         </div>
                         <div class="row">
                             <div class="col">
-                                <img [src]="this.authService.pfpImg" class="pfpImg">
+                                <img [src]="message.pfpImg" class="pfpImg">
                                 <span id="urn">{{message.username}}</span>
                             </div>
                         </div>
@@ -58,7 +58,7 @@
                     <li *ngIf="this.authService.username !== message.username" class="NotloggedIn_msg">
                         <div class="row">
                             <div class="col">
-                                <img [src]="getNotLoggedInpfp(message.username)" class="pfpImg">
+                                <img [src]="message.pfpImg" class="pfpImg2">
                                 <p id="urn2">{{message.username}}</p>
                             </div>
                         </div>

@@ -1,5 +1,4 @@
-
-@import "~bootstrap/dist/css/bootstrap.css";
+/*Main Nav pictrure*/
 .main {
     -webkit-box-shadow: 5px 5px 30px 1px #000000;
     box-shadow: 5px 5px 30px 1px #000000;
@@ -9,9 +8,9 @@
 
 .nav_items {
     position: absolute;
-    margin:auto;
+    margin: auto;
     top: 10%;
-    
+
 }
 
 nav {
@@ -33,9 +32,11 @@ nav a:hover {
     color: grey;
 }
 
-.chat{
+.chat {
     color: #bababa;
 }
+
+/*About BTS*/
 
 .band_name {
     color: white;
@@ -50,89 +51,78 @@ nav a:hover {
     text-indent: 50px;
 }
 
+
 /*Social Media List*/
 
-.social_media_contaeiner{
-    margin-top: 50px;
-    height: 450px;
+.social_media_list_row {
+    margin-top: 4%;
 }
+
 .gq_photo {
     width: 25%;
     float: right;
-    margin-bottom: 20px;  
+    margin-bottom: 20px;
     -webkit-box-shadow: 5px 5px 30px 1px #000000;
     box-shadow: 5px 5px 30px 1px #000000;
 }
 
-.list{
+.list {
     float: right;
-    /* top: 5%; */
 }
 
-.sm_list_title{
+.sm_list_title {
     color: #bababa;
     margin-bottom: 15px;
     margin-top: 30px;
     margin-right: 20px;
 }
 
-ul{
+ul {
     margin-right: 10px;
 }
-ul li{
+
+ul li {
     list-style: none;
     color: #bababa;
     font-size: 25px;
 }
 
-ul li:hover{
+ul li:hover {
     text-decoration: underline #bababa;
 }
 
 /*Youtube video*/
 
-.yt_video{
+.yt_video {
     margin-left: 3%;
     margin-top: 3%;
 }
 
-iframe{
+iframe {
     border: none;
 }
 
 /*Hr*/
 
-hr{
+hr {
     height: 1px;
-    color:#bababa;
+    color: #bababa;
     background-color: #bababa;
-    margin-top: 35px;
-}
-
-.second_hr{
-    position: relative;
-    top: 100%;
-    height: 1px;
-    color:#bababa;
-    background-color: #bababa;
-    margin-top: 30px;
+    margin-top: 5%;
 }
 
 /*Label info*/
 
-.BM_title{
+.BM_title {
     margin-top: 5%;
     color: white;
     font-family: 'Domine', serif;
 }
 
-.about_bm{
+.about_bm {
     color: #bababa;
     font-size: 24px;
     text-align: justify;
     text-indent: 50px;
-}
-
-.info_of_label{
-    height: 300px;
+    padding-bottom: 2%;
 }

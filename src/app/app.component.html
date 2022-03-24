@@ -8,8 +8,8 @@
                 <a *ngIf="this.authService.isLoggedIn()" routerLink="/account" class="nav-link" aria-current="page">
                     <span class="userName">
                         {{ this.authService.username }}
+                        <img [src]="this.authService.pfpImg" class="pfpImg">
                     </span>
-                    <img [src]="this.authService.pfpImg" class="pfpImg">
                 </a>
                 <a *ngIf="!this.authService.isLoggedIn()" routerLink="/login" class="nav-link" aria-current="page"
                     class="login_register">
@@ -38,7 +38,7 @@
             </div>
         </div>
     </div>
-    <footer class="">
+    <footer>
         <span>COPYRIGHT © 2021 BIG HIT MUSIC / HYBE. ALL RIGHTS RESERVED</span>
     </footer>
 </body>

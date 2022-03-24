@@ -107,3 +107,13 @@ ion-icon {
     margin-right: 2%;
     margin-left: 1%;
 }
+
+.pfpImg2{
+    width: 6%;
+    border-radius: 50%;
+    vertical-align: middle;
+    float: right;
+    margin-right: 2%;
+    margin-left: 1%;
+    margin-top: 4%;
+}

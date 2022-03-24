@@ -3,39 +3,25 @@
   "cart": [],
   "users": [
     {
-      "id": 1,
-      "username": "Hanna45",
-      "password": "Hanna45",
-      "email": "Hanna45",
-      "token": ""
-    },
-    {
-      "id": 2,
-      "username": "Julia1",
-      "password": "Julia1",
-      "email": "Julia1",
-      "token": ""
-    },
-    {
-      "id": 3,
-      "username": "fshnyn",
-      "password": "fshnyn",
-      "email": "fshnyn",
-      "token": ""
-    },
-    {
-      "id": 4,
-      "username": "Julia0613",
-      "password": "Julia0613",
-      "email": "Julia0613",
-      "token": ""
-    },
-    {
       "id": 5,
       "username": "Sörfőző Júlia",
       "password": "Sörfőző Júlia",
       "pfpImg": "assets/img/pfp/89840442_1512783208888945_943925385211412480_n.jpg",
       "email": "sorfozojulia22@gmail.com",
+      "token": ""
+    },
+    {
+      "id": 6,
+      "username": "Hanna56",
+      "password": "Hanna56",
+      "email": "Hanna56",
+      "token": ""
+    },
+    {
+      "id": 7,
+      "username": "Anna89",
+      "password": "Anna89",
+      "email": "Anna89",
       "token": ""
     }
   ],
@@ -2303,38 +2289,58 @@
     {
       "listItem": "Mono (2018)",
       "id": 17
+    },
+    {
+      "listItem": "BE",
+      "id": 20
+    },
+    {
+      "listItem": "BE",
+      "id": 21
+    },
+    {
+      "listItem": "BE",
+      "id": 23
+    },
+    {
+      "listItem": "MAP OF THE SOUL : 7",
+      "id": 24
+    },
+    {
+      "listItem": "MAP OF THE SOUL : 7",
+      "id": 25
+    },
+    {
+      "listItem": "MAP OF THE SOUL : 7",
+      "id": 26
+    },
+    {
+      "listItem": "MAP OF THE SOUL : PERSONA",
+      "id": 27
+    },
+    {
+      "listItem": "WINGS",
+      "id": 28
     }
   ],
   "messages": [
     {
-      "username": "Hanna45",
-      "message": "Hi everybody!",
-      "id": 1
-    },
-    {
-      "username": "Julia1",
+      "username": "Hanna56",
+      "pfpImg": "assets/img/pfp/basic.jpg",
       "message": "Hi",
-      "id": 2
-    },
-    {
-      "username": "fshnyn",
-      "message": "bye",
-      "id": 3
-    },
-    {
-      "username": "fshnyn",
-      "message": "hiii",
-      "id": 4
-    },
-    {
-      "username": "Julia0613",
-      "message": "hi",
-      "id": 5
+      "id": 7
     },
     {
       "username": "Sörfőző Júlia",
-      "message": "Hi",
-      "id": 6
+      "pfpImg": "assets/img/pfp/89840442_1512783208888945_943925385211412480_n.jpg",
+      "message": "hi",
+      "id": 8
+    },
+    {
+      "username": "Anna89",
+      "pfpImg": "assets/img/pfp/basic.jpg",
+      "message": "How is everyone?",
+      "id": 9
     }
   ]
 }

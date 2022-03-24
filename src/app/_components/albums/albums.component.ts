@@ -9,18 +9,19 @@ import { AlbumService } from 'src/app/_services/album.service';
   templateUrl: './albums.component.html',
   styleUrls: ['./albums.component.css']
 })
+
 export class AlbumsComponent implements OnInit {
 
-  albums: Album[]=[];
+  albums: Album[] = [];
 
-  constructor(private albumService: AlbumService,private location: Location) { }
+  constructor(private albumService: AlbumService, private location: Location) { }
 
   ngOnInit(): void {
     this.getAlbums();
   }
 
-  getAlbums():void{
-    this.albumService.getAllAlbums().subscribe(data=>this.albums = data);
+  getAlbums(): void {
+    this.albumService.getAllAlbums().subscribe(data => this.albums = data);
   }
   goBack(): void {
     this.location.back();

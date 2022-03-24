@@ -9,18 +9,19 @@ import { MemberService } from 'src/app/_services/member.service';
   templateUrl: './members.component.html',
   styleUrls: ['./members.component.css']
 })
+
 export class MembersComponent implements OnInit {
 
   members: Member[] = [];
 
-  constructor(private memberService: MemberService,private location: Location) { }
+  constructor(private memberService: MemberService, private location: Location) { }
 
   ngOnInit(): void {
     this.getMembers();
   }
 
   getMembers(): void {
-  this.memberService.getAllMembers()
+    this.memberService.getAllMembers()
       .subscribe(members => this.members = members);;
   }
 

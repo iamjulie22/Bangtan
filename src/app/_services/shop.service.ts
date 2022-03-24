@@ -15,11 +15,10 @@ const httpOption = {
 })
 export class ShopService {
 
-  constructor(private http: HttpClient) { }
-
   qty: number = 0;
   temp: boolean;
-  
+
+  constructor(private http: HttpClient) { }
 
   helper() {
     setTimeout(() => {
