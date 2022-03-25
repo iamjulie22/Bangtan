@@ -14,7 +14,7 @@
         </div>
         <div class="row">
             <div class="col">
-                <div *ngIf="show.id%2==0" class="show_disc2">
+                <div *ngIf="show.id%2==0" class="show_disc">
                     <img [src]="show.img" [alt]="show.title" class="placed_right_show">
                     <h1 class="show_title">{{show.title}}<ion-icon name="add-circle-outline"
                         (click)="addOnClick(show.title)"></ion-icon></h1>

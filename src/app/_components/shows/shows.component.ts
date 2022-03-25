@@ -11,16 +11,14 @@ import { ShowService } from 'src/app/_services/show.service';
   templateUrl: './shows.component.html',
   styleUrls: ['./shows.component.css']
 })
+
 export class ShowsComponent implements OnInit {
-
   shows: Show[] = [];
-  items: ListItem[] = [];
 
-  constructor(private showService: ShowService,private location: Location,private listService: ListService) { }
+  constructor(private showService: ShowService, private location: Location, private listService: ListService) { }
 
   ngOnInit(): void {
     this.getShows();
-    this.getListItems();
   }
 
   getShows(): void {
@@ -30,17 +28,11 @@ export class ShowsComponent implements OnInit {
   goBack(): void {
     this.location.back();
   }
-  getListItems(): void {
-    this.listService.getAllListItem().subscribe(data => this.items = data); //nem jó
-  }
-  
+
   addOnClick(title: string) {
     let obj: ListItem = {
       listItem: title
     }
-    this.listService.addListItem(obj).subscribe(() => {
-      this.getListItems(); //nem működik 
-    });
-}
-
+    this.listService.addListItem(obj).subscribe(() => { });
+  }
 }

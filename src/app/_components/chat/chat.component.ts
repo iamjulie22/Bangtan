@@ -55,7 +55,7 @@ export class ChatComponent implements OnInit {
   onSubmit() {
     let obj: Message = {
       username: this.authService.username,
-      pfpImg:this.authService.pfpImg,
+      pfpImg: this.authService.pfpImg,
       message: this.messageForm.value.message
     }
     if (this.messageForm.value.message) {
@@ -77,19 +77,18 @@ export class ChatComponent implements OnInit {
     this.modalService.open(content);
   }
 
-  get f() { return this.editMsgForm.controls; }
-
   updateMessage(id: number) {
     const message = this.messages.find(x => x.id === id);
     let obj: Message = {
       username: this.authService.username,
-      pfpImg:this.authService.pfpImg,
+      pfpImg: this.authService.pfpImg,
       message: this.editMsgForm.value.message
     }
     this.chatService.updateMsg(id, obj)
       .pipe(first())
       .subscribe(() => this.getMessages())
   }
+
   goBack(): void {
     this.location.back();
   }
@@ -102,8 +101,4 @@ export class ChatComponent implements OnInit {
       }, 200);
     });
   }
-
-
-
-
 }

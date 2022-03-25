@@ -1,78 +1,4 @@
-.chat {
-    background-color: #bababa;
-    height: 65%;
-    border-radius: 0.4rem;
-    padding: 1%;
-    overflow: auto;
-}
-
-#urn {
-    /* padding-right: 4%; */
-    font-family: 'Domine', serif;
-    font-weight: 600;
-    float: right;
-}
-
-#urn2 {
-    text-align: right;
-    padding-right: 5%;
-    font-family: 'Domine', serif;
-    font-weight: 600;
-    padding-top: 5%;
-}
-
-.msg {
-    padding-left: 5%;
-    font-size: 120%;
-}
-
-.loggedIn_msg {
-    background-color: white;
-    border-radius: 0.4rem;
-    list-style: none;
-    width: 40%;
-    margin-left: 55%;
-
-}
-
-.NotloggedIn_msg {
-    background-color: grey;
-    border-radius: 0.4rem;
-    list-style: none;
-    width: 40%;
-    float: top;
-    margin-top: 2%;
-}
-
-.input_message {
-    margin-top: 2%;
-}
-
-
-.input_message_part {
-    width: 100%;
-    margin-left: 25%;
-}
-
-ion-icon {
-    color: white;
-}
-
-.dropdown-toggle::after {
-    display: none;
-}
-
-.btn_editing {
-    float: right;
-    background-color: white;
-    font-size: 150%;
-    padding-bottom: 3%;
-}
-
-
-ion-icon {
-    margin-left: 1%;
-}
+/*Back Arrow*/
 
 .arrow {
     margin-top: 2%;
@@ -85,18 +11,55 @@ ion-icon {
     cursor: pointer;
 }
 
-.test {
-    height: 89.5%;
+.btn:hover {
+    color: #bababa;
 }
 
-.arrow_btn {
-    float: right;
+ion-icon {
+    color: white;
 }
+
+/*"body"*/
+
+.test {
+    height: 100%;
+}
+
+/*Title*/
 
 .title {
     font-size: 200%;
     font-family: 'Domine', serif;
     color: white;
+}
+
+/*Chat Container*/
+
+.chat {
+    background-color: #bababa;
+    height: 65%;
+    border-radius: 0.4rem;
+    padding: 1%;
+    overflow: auto;
+}
+
+.loggedIn_msg {
+    background-color: white;
+    border-radius: 0.4rem;
+    list-style: none;
+    width: 40%;
+    margin-left: 55%;
+}
+
+.btn_editing {
+    float: right;
+    background-color: white;
+    font-size: 150%;
+    padding-bottom: 3%;
+}
+
+.dropdown-toggle::after {
+    display: none;
 }
 
 .pfpImg {
@@ -108,7 +71,27 @@ ion-icon {
     margin-left: 1%;
 }
 
-.pfpImg2{
+#urn {
+    font-family: 'Domine', serif;
+    font-weight: 600;
+    float: right;
+}
+
+.msg {
+    padding-left: 5%;
+    font-size: 120%;
+}
+
+.NotloggedIn_msg {
+    background-color: grey;
+    border-radius: 0.4rem;
+    list-style: none;
+    width: 40%;
+    float: top;
+    margin-top: 2%;
+}
+
+.pfpImg2 {
     width: 6%;
     border-radius: 50%;
     vertical-align: middle;
@@ -116,4 +99,23 @@ ion-icon {
     margin-right: 2%;
     margin-left: 1%;
     margin-top: 4%;
+}
+
+#urn2 {
+    text-align: right;
+    padding-right: 5%;
+    font-family: 'Domine', serif;
+    font-weight: 600;
+    padding-top: 5%;
+}
+
+/*Form*/
+
+.input_message {
+    margin-top: 2%;
+}
+
+.input_message_part {
+    width: 100%;
+    margin-left: 25%;
 }

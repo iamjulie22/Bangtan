@@ -8,7 +8,7 @@
     <div class="container chat">
         <div class="row">
             <div class="col">
-                <ul *ngFor="let message of messages" class="msg_div">
+                <ul *ngFor="let message of messages">
                     <li *ngIf="this.authService.username === message.username" class="loggedIn_msg">
                         <div class="row">
                             <div class="col ">

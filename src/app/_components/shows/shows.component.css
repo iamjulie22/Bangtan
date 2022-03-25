@@ -1,73 +1,66 @@
-.show_img{
-    width:30%;
+/*Back Arrow,ion-icons*/
+
+.arrow {
+    margin-top: 2%;
+    margin-left: 3%;
+    color: #bababa;
+    font-size: 200%;
+}
+
+ion-icon {
+    margin-left: 1%;
+}
+
+ion-icon:hover {
+    cursor: pointer;
+}
+
+/*About Variety Shows*/
+
+.title {
+    font-size: 300%;
+    font-family: 'Domine', serif;
+    color: white;
+}
+
+.show_disc {
+    margin-top: 5%;
+}
+
+.show_img {
+    width: 30%;
     float: left;
     margin-right: 5%;
     -webkit-box-shadow: 5px 5px 30px 1px #000000;
     box-shadow: 5px 5px 30px 1px #000000;
 }
 
-.show_title{
+.show_title {
     color: white;
 }
 
-.show_info{
-    color: #bababa;
-    font-size: 25px;
-}
-show_info_left{
+.show_info {
     color: #bababa;
     font-size: 25px;
 }
 
-.placed_right_show{
+/*Different styled show*/
+
+.placed_right_show {
     float: right;
-    width:30%;
+    width: 30%;
 }
 
-.show_disc{
-    margin-top: 5%;
-}
-.show_disc2{
-    margin-top: 5%;
+/*Trailers*/
+
+.trailer {
+    color: white;
+    font-family: 'Domine', serif;
+    margin-top: 7%;
+    margin-bottom: 3%;
 }
 
-iframe{
+iframe {
     border: none;
     margin-bottom: 5%;
- }
-
- .trailer{
-     color: white;
-     font-family: 'Domine', serif;
-     margin-top: 7%;
-     margin-bottom: 3%;
- }
-
- ion-icon{
-    margin-left: 1%;
-  }
-  
-  .arrow{
-    margin-top: 2%;
-    margin-left: 3%;
-    color: #bababa;
-    font-size: 200%;
-  }
-  
-  .arrow:hover{
-     cursor: pointer;
-  }
-
-  .title{
-    font-size: 300%;
-    font-family: 'Domine', serif;
-    color: white;
-  }
-
-  ion-icon{
-    margin-left: 1%;
- }
- 
- ion-icon:hover{
-    cursor: pointer;
- }
+}
