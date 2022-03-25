@@ -23,6 +23,14 @@
       "password": "Anna89",
       "email": "Anna89",
       "token": ""
+    },
+    {
+      "id": 8,
+      "username": "Zoltán87",
+      "password": "Zoltán87",
+      "pfpImg": "C:\\fakepath\\Budapest_GettyImages-512278610.jpg",
+      "email": "Zoltán87",
+      "token": ""
     }
   ],
   "members": [
@@ -2261,6 +2269,14 @@
     {
       "listItem": "RM (2015)",
       "id": 5
+    },
+    {
+      "listItem": "RM (2015)",
+      "id": 6
+    },
+    {
+      "listItem": "Run BTS!",
+      "id": 7
     }
   ],
   "messages": [
@@ -2271,16 +2287,16 @@
       "id": 7
     },
     {
-      "username": "Sörfőző Júlia",
-      "pfpImg": "assets/img/pfp/89840442_1512783208888945_943925385211412480_n.jpg",
-      "message": "hi",
-      "id": 8
-    },
-    {
       "username": "Anna89",
       "pfpImg": "assets/img/pfp/basic.jpg",
       "message": "How is everyone?",
       "id": 9
+    },
+    {
+      "username": "Zoltán87",
+      "pfpImg": "C:\\fakepath\\Budapest_GettyImages-512278610.jpg",
+      "message": "Hi",
+      "id": 10
     }
   ]
 }

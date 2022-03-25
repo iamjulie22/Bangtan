@@ -188,16 +188,16 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-function HomeComponent_div_16_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 28);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 29);
+function HomeComponent_div_14_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 28);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Chat");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
 } }
-function HomeComponent_div_17_Template(rf, ctx) { if (rf & 1) {
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 28);
-    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 30);
+function HomeComponent_div_15_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 27);
+    _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "a", 29);
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](2, "Chat");
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
@@ -210,7 +210,7 @@ class HomeComponent {
     }
 }
 HomeComponent.ɵfac = function HomeComponent_Factory(t) { return new (t || HomeComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdirectiveInject"](src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_1__["AuthService"])); };
-HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 64, vars: 2, consts: [[1, "container"], [1, "row"], [1, "col", "d-flex", "justify-content-center"], ["src", "assets/img/BE/be_group.jpg", "alt", "BE_GROUP_PHOTO", 1, "main"], [1, "container", "nav_items"], ["routerLink", "/home", 1, "nav_a"], ["routerLink", "/members", 1, "nav_a"], ["routerLink", "/albums", 1, "nav_a"], ["routerLink", "/shows", 1, "nav_a"], ["class", "nav_a", 4, "ngIf"], [1, "col"], [1, "band_name", "d-flex", "justify-content-center"], [1, "about_bts"], [1, "row", "social_media_list_row"], ["src", "assets/img/gq_korea/group.jpg", "alt", "GQ_KOREA_GROUP_PHOTO", 1, "gq_photo"], [1, "list"], [1, "sm_list_title"], [1, "d-flex", "justify-content-end"], ["href", "https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ", "target", "_blank"], ["href", "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX", "target", "_blank"], ["href", "https://twitter.com/bts_bighit", "target", "_blank"], ["href", "https://www.instagram.com/bts.bighitofficial/", "target", "_blank"], ["href", "https://www.facebook.com/bangtan.official", "target", "_blank"], ["href", "https://www.weverse.io/", "target", "_blank"], [1, "yt_video"], ["width", "420", "height", "315", "src", "https://www.youtube.com/embed/?v=WMweEpGlu_U&list=PLwN_wMJhvydYmpST5YaGouq6JcmyVyQB0"], [1, "BM_title"], [1, "about_bm"], [1, "nav_a"], ["routerLink", "/chat", 1, "chat"], ["routerLink", "/login", 1, "chat"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
+HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComponent"]({ type: HomeComponent, selectors: [["app-home"]], decls: 62, vars: 2, consts: [[1, "container"], [1, "row"], [1, "col", "d-flex", "justify-content-center"], ["src", "assets/img/BE/be_group.jpg", "alt", "BE_GROUP_PHOTO", 1, "main"], [1, "container", "nav_items"], ["routerLink", "/members", 1, "nav_a"], ["routerLink", "/albums", 1, "nav_a"], ["routerLink", "/shows", 1, "nav_a"], ["class", "nav_a", 4, "ngIf"], [1, "col"], [1, "band_name", "d-flex", "justify-content-center"], [1, "about_bts"], [1, "row", "social_media_list_row"], ["src", "assets/img/gq_korea/group.jpg", "alt", "GQ_KOREA_GROUP_PHOTO", 1, "gq_photo"], [1, "list"], [1, "sm_list_title"], [1, "d-flex", "justify-content-end"], ["href", "https://www.youtube.com/channel/UCLkAepWjdylmXSltofFvsYQ", "target", "_blank"], ["href", "https://open.spotify.com/artist/3Nrfpe0tUJi4K4DXYWgMUX", "target", "_blank"], ["href", "https://twitter.com/bts_bighit", "target", "_blank"], ["href", "https://www.instagram.com/bts.bighitofficial/", "target", "_blank"], ["href", "https://www.facebook.com/bangtan.official", "target", "_blank"], ["href", "https://www.weverse.io/", "target", "_blank"], [1, "yt_video"], ["width", "420", "height", "315", "src", "https://www.youtube.com/embed/?v=WMweEpGlu_U&list=PLwN_wMJhvydYmpST5YaGouq6JcmyVyQB0"], [1, "BM_title"], [1, "about_bm"], [1, "nav_a"], ["routerLink", "/chat", 1, "chat"], ["routerLink", "/login", 1, "chat"]], template: function HomeComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](1, "div", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](2, "div", 2);
@@ -220,105 +220,102 @@ HomeComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](6, "div", 2);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](7, "nav");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](8, "a", 5);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Home");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](9, "Members");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](10, "a", 6);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Members");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](11, "Discography");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](12, "a", 7);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Discography");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](13, "Shows");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](14, "a", 8);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](15, "Shows");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](16, HomeComponent_div_16_Template, 3, 0, "div", 9);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](17, HomeComponent_div_17_Template, 3, 0, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](14, HomeComponent_div_14_Template, 3, 0, "div", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtemplate"](15, HomeComponent_div_15_Template, 3, 0, "div", 8);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](19, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "h1", 11);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](21, "BTS");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](16, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](17, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](18, "h1", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](19, "BTS");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](23, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](24, "p", 12);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](25, "BTS, an acronym of Bangtan Sonyeondan or \u201CBeyond the Scene,\u201D is a Grammy-nominated South Korean group that has been capturing the hearts of millions of fans globally since its debut in June 2013. The members of BTS are RM, Jin, SUGA, j-hope, Jimin, V, and Jung Kook. Gaining recognition for their authentic and self-produced music, top-notch performances, and the way they interact with their fans, BTS has established themselves as \u201C21st century Pop Icons\u201D breaking countless world records. While imparting a positive influence through activities such as the LOVE MYSELF campaign and the UN \u2018Speak Yourself\u2019 speech, the band has mobilized millions of fans across the world (named ARMY), collected four No. 1 songs in a span of 9 months, performed multiple sold-out stadium shows across the world, and been named TIME\u2019s Entertainer of the Year 2020. BTS has been nominated for Best Pop Duo/Group Performance for the 63rd Grammy Awards and recognized with numerous prestigious awards like the Billboard Music Awards, American Music Awards and MTV Video Music Awards. ");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](20, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](21, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](22, "p", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](23, "BTS, an acronym of Bangtan Sonyeondan or \u201CBeyond the Scene,\u201D is a Grammy-nominated South Korean group that has been capturing the hearts of millions of fans globally since its debut in June 2013. The members of BTS are RM, Jin, SUGA, j-hope, Jimin, V, and Jung Kook. Gaining recognition for their authentic and self-produced music, top-notch performances, and the way they interact with their fans, BTS has established themselves as \u201C21st century Pop Icons\u201D breaking countless world records. While imparting a positive influence through activities such as the LOVE MYSELF campaign and the UN \u2018Speak Yourself\u2019 speech, the band has mobilized millions of fans across the world (named ARMY), collected four No. 1 songs in a span of 9 months, performed multiple sold-out stadium shows across the world, and been named TIME\u2019s Entertainer of the Year 2020. BTS has been nominated for Best Pop Duo/Group Performance for the 63rd Grammy Awards and recognized with numerous prestigious awards like the Billboard Music Awards, American Music Awards and MTV Video Music Awards. ");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](26, "hr");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](27, "div", 13);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](29, "img", 14);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](30, "div", 15);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "h1", 16);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](32, "Social Media");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "div", 17);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "ul");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](35, "a", 18);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](37, "YouTube");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](24, "hr");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](38, "a", 19);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](40, "Spotify");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](25, "div", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](26, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](27, "img", 13);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](28, "div", 14);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](29, "h1", 15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](30, "Social Media");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](31, "div", 16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](32, "ul");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](33, "a", 17);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](34, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](35, "YouTube");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](41, "a", 20);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](43, "Twitter");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](36, "a", 18);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](37, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](38, "Spotify");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](44, "a", 21);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](46, "Instagram");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](39, "a", 19);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](40, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](41, "Twitter");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](47, "a", 22);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](49, "Facebook");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](42, "a", 20);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](43, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](44, "Instagram");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](50, "a", 23);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "li");
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](52, "Weverse");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](45, "a", 21);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](46, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](47, "Facebook");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](48, "a", 22);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](49, "li");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](50, "Weverse");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 24);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](54, "iframe", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](51, "div", 23);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](52, "iframe", 24);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](55, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](57, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](53, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](54, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelement"](55, "hr");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "div", 1);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](59, "div", 10);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "h1", 26);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "BIGHIT MUSIC");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](56, "div", 1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](57, "div", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](58, "h1", 25);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](59, "BIGHIT MUSIC");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](62, "p", 27);
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](63, "BIGHIT MUSIC is an industry-leading music label that continues to pioneer new paths driven by a strong belief in music and ceaseless support from fans. BIGHIT strives to create music heretofore unseen in the world through its inimitable way, creating the music that symbolizes an era that can resonate with fans across the world. Artists under the label includes Lee Hyun, BTS and TOMORROW X TOGETHER.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementStart"](60, "p", 26);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵtext"](61, "BIGHIT MUSIC is an industry-leading music label that continues to pioneer new paths driven by a strong belief in music and ceaseless support from fans. BIGHIT strives to create music heretofore unseen in the world through its inimitable way, creating the music that symbolizes an era that can resonate with fans across the world. Artists under the label includes Lee Hyun, BTS and TOMORROW X TOGETHER.");
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵelementEnd"]();
     } if (rf & 2) {
-        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](16);
+        _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](14);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", ctx.authService.isLoggedIn());
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_0__["ɵɵproperty"]("ngIf", !ctx.authService.isLoggedIn());
@@ -954,7 +951,7 @@ class ChatComponent {
     }
 }
 ChatComponent.ɵfac = function ChatComponent_Factory(t) { return new (t || ChatComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](src_app_services_chat_service__WEBPACK_IMPORTED_MODULE_4__["ChatService"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormBuilder"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](src_app_services_auth_service__WEBPACK_IMPORTED_MODULE_5__["AuthService"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbModalConfig"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbModal"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](src_app_services_shop_service__WEBPACK_IMPORTED_MODULE_6__["ShopService"]), _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdirectiveInject"](_angular_common__WEBPACK_IMPORTED_MODULE_7__["Location"])); };
-ChatComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: ChatComponent, selectors: [["app-chat"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵProvidersFeature"]([_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbModalConfig"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbModal"]])], decls: 17, vars: 2, consts: [[1, "container-fluid", "test"], ["name", "arrow-back-outline", 1, "arrow", 3, "click"], [1, "row"], [1, "col", "d-flex", "justify-content-center"], [1, "title"], [1, "container", "chat"], [1, "col"], [4, "ngFor", "ngForOf"], [1, "container", "input_message", 3, "formGroup", "ngSubmit"], [1, "form-group"], [1, "row", "input_message_part"], ["type", "text", "required", "", "formControlName", "message", "placeholder", "Type something...", 1, "form-control"], [1, "col", "arrow_btn"], ["name", "send-outline", "type", "submit", 1, "btn", 3, "click"], ["class", "loggedIn_msg", 4, "ngIf"], ["class", "NotloggedIn_msg", 4, "ngIf"], [1, "loggedIn_msg"], ["ngbDropdown", "", "placement", "top-right"], ["type", "button", "ngbDropdownToggle", "", 1, "btn_editing"], ["ngbDropdownMenu", ""], ["ngbDropdownItem", "", 3, "click"], ["ngbDropdownItem", "", 1, "btn", "btn-lg", "btn-outline-primary", 3, "click"], ["content", ""], [1, "pfpImg", 3, "src"], ["id", "urn"], [1, "msg"], [1, "modal-header"], ["id", "modal-basic-title", 1, "modal-title"], ["type", "button", "aria-label", "Close", 1, "btn-close", 3, "click"], [1, "modal-body"], [3, "formGroup"], ["type", "text", "formControlName", "message", 1, "form-control"], [1, "modal-footer"], ["type", "button", 1, "btn", "btn-outline-dark", 3, "click"], [1, "NotloggedIn_msg"], [1, "pfpImg2", 3, "src"], ["id", "urn2"]], template: function ChatComponent_Template(rf, ctx) { if (rf & 1) {
+ChatComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComponent"]({ type: ChatComponent, selectors: [["app-chat"]], features: [_angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵProvidersFeature"]([_ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbModalConfig"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbModal"]])], decls: 17, vars: 2, consts: [[1, "container-fluid", "test"], ["name", "arrow-back-outline", 1, "arrow", 3, "click"], [1, "row"], [1, "col", "d-flex", "justify-content-center"], [1, "title"], [1, "container", "chat"], [1, "col"], [4, "ngFor", "ngForOf"], [1, "container", "input_message", 3, "formGroup", "ngSubmit"], [1, "form-group"], [1, "row", "input_message_part"], ["type", "text", "required", "", "formControlName", "message", "placeholder", "Type something...", 1, "form-control"], [1, "col", "arrow_btn"], ["name", "send-outline", "type", "submit", 1, "btn", 3, "click"], ["class", "loggedIn_msg", 4, "ngIf"], ["class", "NotloggedIn_msg", 4, "ngIf"], [1, "loggedIn_msg"], ["ngbDropdown", "", "placement", "top-right"], ["type", "button", "ngbDropdownToggle", "", 1, "btn_editing"], ["ngbDropdownMenu", ""], ["ngbDropdownItem", "", 3, "click"], ["ngbDropdownItem", "", 1, "btn", "btn-lg", "btn-outline-primary", "editbtn", 3, "click"], ["content", ""], [1, "pfpImg", 3, "src"], ["id", "urn"], [1, "msg"], [1, "modal-header"], ["id", "modal-basic-title", 1, "modal-title"], ["type", "button", "aria-label", "Close", 1, "btn-close", 3, "click"], [1, "modal-body"], [3, "formGroup"], ["type", "text", "formControlName", "message", 1, "form-control"], [1, "modal-footer"], ["type", "button", 1, "btn", "btn-outline-dark", 3, "click"], [1, "NotloggedIn_msg"], [1, "pfpImg2", 3, "src"], ["id", "urn2"]], template: function ChatComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](0, "div", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵelementStart"](1, "ion-icon", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵlistener"]("click", function ChatComponent_Template_ion_icon_click_1_listener() { return ctx.goBack(); });
@@ -994,7 +991,7 @@ ChatComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵdefineComp
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("ngForOf", ctx.messages);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵadvance"](1);
         _angular_core__WEBPACK_IMPORTED_MODULE_3__["ɵɵproperty"]("formGroup", ctx.messageForm);
-    } }, directives: [_ionic_angular__WEBPACK_IMPORTED_MODULE_8__["IonIcon"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgForOf"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["ɵangular_packages_forms_forms_ba"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["RequiredValidator"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgIf"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbDropdown"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbDropdownToggle"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbDropdownMenu"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbDropdownItem"]], styles: [".arrow[_ngcontent-%COMP%] {\r\n    margin-top: 2%;\r\n    margin-left: 3%;\r\n    color: #bababa;\r\n    font-size: 200%;\r\n}\r\n\r\n.arrow[_ngcontent-%COMP%]:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n.btn[_ngcontent-%COMP%]:hover {\r\n    color: #bababa;\r\n}\r\n\r\nion-icon[_ngcontent-%COMP%] {\r\n    color: white;\r\n}\r\n\r\n\r\n\r\n.test[_ngcontent-%COMP%] {\r\n    height: 100%;\r\n}\r\n\r\n\r\n\r\n.title[_ngcontent-%COMP%] {\r\n    font-size: 200%;\r\n    font-family: 'Domine', serif;\r\n    color: white;\r\n}\r\n\r\n\r\n\r\n.chat[_ngcontent-%COMP%] {\r\n    background-color: #bababa;\r\n    height: 65%;\r\n    border-radius: 0.4rem;\r\n    padding: 1%;\r\n    overflow: auto;\r\n}\r\n\r\n.loggedIn_msg[_ngcontent-%COMP%] {\r\n    background-color: white;\r\n    border-radius: 0.4rem;\r\n    list-style: none;\r\n    width: 40%;\r\n    margin-left: 55%;\r\n}\r\n\r\n.btn_editing[_ngcontent-%COMP%] {\r\n    float: right;\r\n    background-color: white;\r\n    font-size: 150%;\r\n    padding-bottom: 3%;\r\n}\r\n\r\n.dropdown-toggle[_ngcontent-%COMP%]::after {\r\n    display: none;\r\n}\r\n\r\n.pfpImg[_ngcontent-%COMP%] {\r\n    width: 6%;\r\n    border-radius: 50%;\r\n    vertical-align: middle;\r\n    float: right;\r\n    margin-right: 2%;\r\n    margin-left: 1%;\r\n}\r\n\r\n#urn[_ngcontent-%COMP%] {\r\n    font-family: 'Domine', serif;\r\n    font-weight: 600;\r\n    float: right;\r\n}\r\n\r\n.msg[_ngcontent-%COMP%] {\r\n    padding-left: 5%;\r\n    font-size: 120%;\r\n}\r\n\r\n.NotloggedIn_msg[_ngcontent-%COMP%] {\r\n    background-color: grey;\r\n    border-radius: 0.4rem;\r\n    list-style: none;\r\n    width: 40%;\r\n    float: top;\r\n    margin-top: 2%;\r\n}\r\n\r\n.pfpImg2[_ngcontent-%COMP%] {\r\n    width: 6%;\r\n    border-radius: 50%;\r\n    vertical-align: middle;\r\n    float: right;\r\n    margin-right: 2%;\r\n    margin-left: 1%;\r\n    margin-top: 4%;\r\n}\r\n\r\n#urn2[_ngcontent-%COMP%] {\r\n    text-align: right;\r\n    padding-right: 5%;\r\n    font-family: 'Domine', serif;\r\n    font-weight: 600;\r\n    padding-top: 5%;\r\n}\r\n\r\n\r\n\r\n.input_message[_ngcontent-%COMP%] {\r\n    margin-top: 2%;\r\n}\r\n\r\n.input_message_part[_ngcontent-%COMP%] {\r\n    width: 100%;\r\n    margin-left: 25%;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoYXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxhQUFhOztBQUViO0lBQ0ksY0FBYztJQUNkLGVBQWU7SUFDZixjQUFjO0lBQ2QsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksWUFBWTtBQUNoQjs7QUFFQSxTQUFTOztBQUVUO0lBQ0ksWUFBWTtBQUNoQjs7QUFFQSxRQUFROztBQUVSO0lBQ0ksZUFBZTtJQUNmLDRCQUE0QjtJQUM1QixZQUFZO0FBQ2hCOztBQUVBLGlCQUFpQjs7QUFFakI7SUFDSSx5QkFBeUI7SUFDekIsV0FBVztJQUNYLHFCQUFxQjtJQUNyQixXQUFXO0lBQ1gsY0FBYztBQUNsQjs7QUFFQTtJQUNJLHVCQUF1QjtJQUN2QixxQkFBcUI7SUFDckIsZ0JBQWdCO0lBQ2hCLFVBQVU7SUFDVixnQkFBZ0I7QUFDcEI7O0FBRUE7SUFDSSxZQUFZO0lBQ1osdUJBQXVCO0lBQ3ZCLGVBQWU7SUFDZixrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxhQUFhO0FBQ2pCOztBQUVBO0lBQ0ksU0FBUztJQUNULGtCQUFrQjtJQUNsQixzQkFBc0I7SUFDdEIsWUFBWTtJQUNaLGdCQUFnQjtJQUNoQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksNEJBQTRCO0lBQzVCLGdCQUFnQjtJQUNoQixZQUFZO0FBQ2hCOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxzQkFBc0I7SUFDdEIscUJBQXFCO0lBQ3JCLGdCQUFnQjtJQUNoQixVQUFVO0lBQ1YsVUFBVTtJQUNWLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxTQUFTO0lBQ1Qsa0JBQWtCO0lBQ2xCLHNCQUFzQjtJQUN0QixZQUFZO0lBQ1osZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksaUJBQWlCO0lBQ2pCLGlCQUFpQjtJQUNqQiw0QkFBNEI7SUFDNUIsZ0JBQWdCO0lBQ2hCLGVBQWU7QUFDbkI7O0FBRUEsT0FBTzs7QUFFUDtJQUNJLGNBQWM7QUFDbEI7O0FBRUE7SUFDSSxXQUFXO0lBQ1gsZ0JBQWdCO0FBQ3BCIiwiZmlsZSI6ImNoYXQuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qQmFjayBBcnJvdyovXHJcblxyXG4uYXJyb3cge1xyXG4gICAgbWFyZ2luLXRvcDogMiU7XHJcbiAgICBtYXJnaW4tbGVmdDogMyU7XHJcbiAgICBjb2xvcjogI2JhYmFiYTtcclxuICAgIGZvbnQtc2l6ZTogMjAwJTtcclxufVxyXG5cclxuLmFycm93OmhvdmVyIHtcclxuICAgIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLmJ0bjpob3ZlciB7XHJcbiAgICBjb2xvcjogI2JhYmFiYTtcclxufVxyXG5cclxuaW9uLWljb24ge1xyXG4gICAgY29sb3I6IHdoaXRlO1xyXG59XHJcblxyXG4vKlwiYm9keVwiKi9cclxuXHJcbi50ZXN0IHtcclxuICAgIGhlaWdodDogMTAwJTtcclxufVxyXG5cclxuLypUaXRsZSovXHJcblxyXG4udGl0bGUge1xyXG4gICAgZm9udC1zaXplOiAyMDAlO1xyXG4gICAgZm9udC1mYW1pbHk6ICdEb21pbmUnLCBzZXJpZjtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxufVxyXG5cclxuLypDaGF0IENvbnRhaW5lciovXHJcblxyXG4uY2hhdCB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjYmFiYWJhO1xyXG4gICAgaGVpZ2h0OiA2NSU7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwLjRyZW07XHJcbiAgICBwYWRkaW5nOiAxJTtcclxuICAgIG92ZXJmbG93OiBhdXRvO1xyXG59XHJcblxyXG4ubG9nZ2VkSW5fbXNnIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMC40cmVtO1xyXG4gICAgbGlzdC1zdHlsZTogbm9uZTtcclxuICAgIHdpZHRoOiA0MCU7XHJcbiAgICBtYXJnaW4tbGVmdDogNTUlO1xyXG59XHJcblxyXG4uYnRuX2VkaXRpbmcge1xyXG4gICAgZmxvYXQ6IHJpZ2h0O1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogd2hpdGU7XHJcbiAgICBmb250LXNpemU6IDE1MCU7XHJcbiAgICBwYWRkaW5nLWJvdHRvbTogMyU7XHJcbn1cclxuXHJcbi5kcm9wZG93bi10b2dnbGU6OmFmdGVyIHtcclxuICAgIGRpc3BsYXk6IG5vbmU7XHJcbn1cclxuXHJcbi5wZnBJbWcge1xyXG4gICAgd2lkdGg6IDYlO1xyXG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xyXG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIG1hcmdpbi1yaWdodDogMiU7XHJcbiAgICBtYXJnaW4tbGVmdDogMSU7XHJcbn1cclxuXHJcbiN1cm4ge1xyXG4gICAgZm9udC1mYW1pbHk6ICdEb21pbmUnLCBzZXJpZjtcclxuICAgIGZvbnQtd2VpZ2h0OiA2MDA7XHJcbiAgICBmbG9hdDogcmlnaHQ7XHJcbn1cclxuXHJcbi5tc2cge1xyXG4gICAgcGFkZGluZy1sZWZ0OiA1JTtcclxuICAgIGZvbnQtc2l6ZTogMTIwJTtcclxufVxyXG5cclxuLk5vdGxvZ2dlZEluX21zZyB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBncmV5O1xyXG4gICAgYm9yZGVyLXJhZGl1czogMC40cmVtO1xyXG4gICAgbGlzdC1zdHlsZTogbm9uZTtcclxuICAgIHdpZHRoOiA0MCU7XHJcbiAgICBmbG9hdDogdG9wO1xyXG4gICAgbWFyZ2luLXRvcDogMiU7XHJcbn1cclxuXHJcbi5wZnBJbWcyIHtcclxuICAgIHdpZHRoOiA2JTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcclxuICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbiAgICBmbG9hdDogcmlnaHQ7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDIlO1xyXG4gICAgbWFyZ2luLWxlZnQ6IDElO1xyXG4gICAgbWFyZ2luLXRvcDogNCU7XHJcbn1cclxuXHJcbiN1cm4yIHtcclxuICAgIHRleHQtYWxpZ246IHJpZ2h0O1xyXG4gICAgcGFkZGluZy1yaWdodDogNSU7XHJcbiAgICBmb250LWZhbWlseTogJ0RvbWluZScsIHNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICAgIHBhZGRpbmctdG9wOiA1JTtcclxufVxyXG5cclxuLypGb3JtKi9cclxuXHJcbi5pbnB1dF9tZXNzYWdlIHtcclxuICAgIG1hcmdpbi10b3A6IDIlO1xyXG59XHJcblxyXG4uaW5wdXRfbWVzc2FnZV9wYXJ0IHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgbWFyZ2luLWxlZnQ6IDI1JTtcclxufSJdfQ== */"] });
+    } }, directives: [_ionic_angular__WEBPACK_IMPORTED_MODULE_8__["IonIcon"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgForOf"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["ɵangular_packages_forms_forms_ba"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["NgControlStatusGroup"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormGroupDirective"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["DefaultValueAccessor"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["RequiredValidator"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["NgControlStatus"], _angular_forms__WEBPACK_IMPORTED_MODULE_0__["FormControlName"], _angular_common__WEBPACK_IMPORTED_MODULE_7__["NgIf"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbDropdown"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbDropdownToggle"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbDropdownMenu"], _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_1__["NgbDropdownItem"]], styles: [".arrow[_ngcontent-%COMP%] {\r\n    margin-top: 2%;\r\n    margin-left: 3%;\r\n    color: #bababa;\r\n    font-size: 200%;\r\n}\r\n\r\n.arrow[_ngcontent-%COMP%]:hover {\r\n    cursor: pointer;\r\n}\r\n\r\n.btn[_ngcontent-%COMP%]:hover {\r\n    color: #bababa;\r\n}\r\n\r\nion-icon[_ngcontent-%COMP%] {\r\n    color: white;\r\n}\r\n\r\n\r\n\r\n.test[_ngcontent-%COMP%] {\r\n    height: 100%;\r\n}\r\n\r\n\r\n\r\n.title[_ngcontent-%COMP%] {\r\n    font-size: 200%;\r\n    font-family: 'Domine', serif;\r\n    color: white;\r\n}\r\n\r\n\r\n\r\n.chat[_ngcontent-%COMP%] {\r\n    background-color: #bababa;\r\n    height: 65%;\r\n    border-radius: 0.4rem;\r\n    padding: 1%;\r\n    overflow: auto;\r\n}\r\n\r\n.loggedIn_msg[_ngcontent-%COMP%] {\r\n    background-color: white;\r\n    border-radius: 0.4rem;\r\n    list-style: none;\r\n    width: 40%;\r\n    margin-left: 55%;\r\n}\r\n\r\n.btn_editing[_ngcontent-%COMP%] {\r\n    float: right;\r\n    background-color: white;\r\n    font-size: 150%;\r\n    padding-bottom: 3%;\r\n}\r\n\r\n.dropdown-toggle[_ngcontent-%COMP%]::after {\r\n    display: none;\r\n}\r\n\r\n.pfpImg[_ngcontent-%COMP%] {\r\n    width: 6%;\r\n    border-radius: 50%;\r\n    vertical-align: middle;\r\n    float: right;\r\n    margin-right: 2%;\r\n    margin-left: 1%;\r\n}\r\n\r\n.editbtn[_ngcontent-%COMP%]{\r\n    font-size:17px;\r\n}\r\n\r\n#urn[_ngcontent-%COMP%] {\r\n    font-family: 'Domine', serif;\r\n    font-weight: 600;\r\n    float: right;\r\n}\r\n\r\n.msg[_ngcontent-%COMP%] {\r\n    padding-left: 5%;\r\n    font-size: 120%;\r\n}\r\n\r\n.NotloggedIn_msg[_ngcontent-%COMP%] {\r\n    background-color: grey;\r\n    border-radius: 0.4rem;\r\n    list-style: none;\r\n    width: 40%;\r\n    float: top;\r\n    margin-top: 2%;\r\n}\r\n\r\n.pfpImg2[_ngcontent-%COMP%] {\r\n    width: 6%;\r\n    border-radius: 50%;\r\n    vertical-align: middle;\r\n    float: right;\r\n    margin-right: 2%;\r\n    margin-left: 1%;\r\n    margin-top: 4%;\r\n}\r\n\r\n#urn2[_ngcontent-%COMP%] {\r\n    text-align: right;\r\n    padding-right: 5%;\r\n    font-family: 'Domine', serif;\r\n    font-weight: 600;\r\n    padding-top: 5%;\r\n}\r\n\r\n\r\n\r\n.input_message[_ngcontent-%COMP%] {\r\n    margin-top: 2%;\r\n}\r\n\r\n.input_message_part[_ngcontent-%COMP%] {\r\n    width: 100%;\r\n    margin-left: 25%;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNoYXQuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxhQUFhOztBQUViO0lBQ0ksY0FBYztJQUNkLGVBQWU7SUFDZixjQUFjO0lBQ2QsZUFBZTtBQUNuQjs7QUFFQTtJQUNJLGVBQWU7QUFDbkI7O0FBRUE7SUFDSSxjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksWUFBWTtBQUNoQjs7QUFFQSxTQUFTOztBQUVUO0lBQ0ksWUFBWTtBQUNoQjs7QUFFQSxRQUFROztBQUVSO0lBQ0ksZUFBZTtJQUNmLDRCQUE0QjtJQUM1QixZQUFZO0FBQ2hCOztBQUVBLGlCQUFpQjs7QUFFakI7SUFDSSx5QkFBeUI7SUFDekIsV0FBVztJQUNYLHFCQUFxQjtJQUNyQixXQUFXO0lBQ1gsY0FBYztBQUNsQjs7QUFFQTtJQUNJLHVCQUF1QjtJQUN2QixxQkFBcUI7SUFDckIsZ0JBQWdCO0lBQ2hCLFVBQVU7SUFDVixnQkFBZ0I7QUFDcEI7O0FBRUE7SUFDSSxZQUFZO0lBQ1osdUJBQXVCO0lBQ3ZCLGVBQWU7SUFDZixrQkFBa0I7QUFDdEI7O0FBRUE7SUFDSSxhQUFhO0FBQ2pCOztBQUVBO0lBQ0ksU0FBUztJQUNULGtCQUFrQjtJQUNsQixzQkFBc0I7SUFDdEIsWUFBWTtJQUNaLGdCQUFnQjtJQUNoQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksY0FBYztBQUNsQjs7QUFHQTtJQUNJLDRCQUE0QjtJQUM1QixnQkFBZ0I7SUFDaEIsWUFBWTtBQUNoQjs7QUFFQTtJQUNJLGdCQUFnQjtJQUNoQixlQUFlO0FBQ25COztBQUVBO0lBQ0ksc0JBQXNCO0lBQ3RCLHFCQUFxQjtJQUNyQixnQkFBZ0I7SUFDaEIsVUFBVTtJQUNWLFVBQVU7SUFDVixjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksU0FBUztJQUNULGtCQUFrQjtJQUNsQixzQkFBc0I7SUFDdEIsWUFBWTtJQUNaLGdCQUFnQjtJQUNoQixlQUFlO0lBQ2YsY0FBYztBQUNsQjs7QUFFQTtJQUNJLGlCQUFpQjtJQUNqQixpQkFBaUI7SUFDakIsNEJBQTRCO0lBQzVCLGdCQUFnQjtJQUNoQixlQUFlO0FBQ25COztBQUVBLE9BQU87O0FBRVA7SUFDSSxjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksV0FBVztJQUNYLGdCQUFnQjtBQUNwQiIsImZpbGUiOiJjaGF0LmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKkJhY2sgQXJyb3cqL1xyXG5cclxuLmFycm93IHtcclxuICAgIG1hcmdpbi10b3A6IDIlO1xyXG4gICAgbWFyZ2luLWxlZnQ6IDMlO1xyXG4gICAgY29sb3I6ICNiYWJhYmE7XHJcbiAgICBmb250LXNpemU6IDIwMCU7XHJcbn1cclxuXHJcbi5hcnJvdzpob3ZlciB7XHJcbiAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbn1cclxuXHJcbi5idG46aG92ZXIge1xyXG4gICAgY29sb3I6ICNiYWJhYmE7XHJcbn1cclxuXHJcbmlvbi1pY29uIHtcclxuICAgIGNvbG9yOiB3aGl0ZTtcclxufVxyXG5cclxuLypcImJvZHlcIiovXHJcblxyXG4udGVzdCB7XHJcbiAgICBoZWlnaHQ6IDEwMCU7XHJcbn1cclxuXHJcbi8qVGl0bGUqL1xyXG5cclxuLnRpdGxlIHtcclxuICAgIGZvbnQtc2l6ZTogMjAwJTtcclxuICAgIGZvbnQtZmFtaWx5OiAnRG9taW5lJywgc2VyaWY7XHJcbiAgICBjb2xvcjogd2hpdGU7XHJcbn1cclxuXHJcbi8qQ2hhdCBDb250YWluZXIqL1xyXG5cclxuLmNoYXQge1xyXG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2JhYmFiYTtcclxuICAgIGhlaWdodDogNjUlO1xyXG4gICAgYm9yZGVyLXJhZGl1czogMC40cmVtO1xyXG4gICAgcGFkZGluZzogMSU7XHJcbiAgICBvdmVyZmxvdzogYXV0bztcclxufVxyXG5cclxuLmxvZ2dlZEluX21zZyB7XHJcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDAuNHJlbTtcclxuICAgIGxpc3Qtc3R5bGU6IG5vbmU7XHJcbiAgICB3aWR0aDogNDAlO1xyXG4gICAgbWFyZ2luLWxlZnQ6IDU1JTtcclxufVxyXG5cclxuLmJ0bl9lZGl0aW5nIHtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gICAgZm9udC1zaXplOiAxNTAlO1xyXG4gICAgcGFkZGluZy1ib3R0b206IDMlO1xyXG59XHJcblxyXG4uZHJvcGRvd24tdG9nZ2xlOjphZnRlciB7XHJcbiAgICBkaXNwbGF5OiBub25lO1xyXG59XHJcblxyXG4ucGZwSW1nIHtcclxuICAgIHdpZHRoOiA2JTtcclxuICAgIGJvcmRlci1yYWRpdXM6IDUwJTtcclxuICAgIHZlcnRpY2FsLWFsaWduOiBtaWRkbGU7XHJcbiAgICBmbG9hdDogcmlnaHQ7XHJcbiAgICBtYXJnaW4tcmlnaHQ6IDIlO1xyXG4gICAgbWFyZ2luLWxlZnQ6IDElO1xyXG59XHJcblxyXG4uZWRpdGJ0bntcclxuICAgIGZvbnQtc2l6ZToxN3B4O1xyXG59XHJcblxyXG5cclxuI3VybiB7XHJcbiAgICBmb250LWZhbWlseTogJ0RvbWluZScsIHNlcmlmO1xyXG4gICAgZm9udC13ZWlnaHQ6IDYwMDtcclxuICAgIGZsb2F0OiByaWdodDtcclxufVxyXG5cclxuLm1zZyB7XHJcbiAgICBwYWRkaW5nLWxlZnQ6IDUlO1xyXG4gICAgZm9udC1zaXplOiAxMjAlO1xyXG59XHJcblxyXG4uTm90bG9nZ2VkSW5fbXNnIHtcclxuICAgIGJhY2tncm91bmQtY29sb3I6IGdyZXk7XHJcbiAgICBib3JkZXItcmFkaXVzOiAwLjRyZW07XHJcbiAgICBsaXN0LXN0eWxlOiBub25lO1xyXG4gICAgd2lkdGg6IDQwJTtcclxuICAgIGZsb2F0OiB0b3A7XHJcbiAgICBtYXJnaW4tdG9wOiAyJTtcclxufVxyXG5cclxuLnBmcEltZzIge1xyXG4gICAgd2lkdGg6IDYlO1xyXG4gICAgYm9yZGVyLXJhZGl1czogNTAlO1xyXG4gICAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcclxuICAgIGZsb2F0OiByaWdodDtcclxuICAgIG1hcmdpbi1yaWdodDogMiU7XHJcbiAgICBtYXJnaW4tbGVmdDogMSU7XHJcbiAgICBtYXJnaW4tdG9wOiA0JTtcclxufVxyXG5cclxuI3VybjIge1xyXG4gICAgdGV4dC1hbGlnbjogcmlnaHQ7XHJcbiAgICBwYWRkaW5nLXJpZ2h0OiA1JTtcclxuICAgIGZvbnQtZmFtaWx5OiAnRG9taW5lJywgc2VyaWY7XHJcbiAgICBmb250LXdlaWdodDogNjAwO1xyXG4gICAgcGFkZGluZy10b3A6IDUlO1xyXG59XHJcblxyXG4vKkZvcm0qL1xyXG5cclxuLmlucHV0X21lc3NhZ2Uge1xyXG4gICAgbWFyZ2luLXRvcDogMiU7XHJcbn1cclxuXHJcbi5pbnB1dF9tZXNzYWdlX3BhcnQge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgICBtYXJnaW4tbGVmdDogMjUlO1xyXG59Il19 */"] });
 
 
 /***/ }),
