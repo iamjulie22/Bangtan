@@ -71,6 +71,11 @@ ion-icon {
     margin-left: 1%;
 }
 
+.editbtn{
+    font-size:17px;
+}
+
+
 #urn {
     font-family: 'Domine', serif;
     font-weight: 600;

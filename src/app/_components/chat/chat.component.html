@@ -16,7 +16,7 @@
                                     <button type="button" class="btn_editing" ngbDropdownToggle>...</button>
                                     <ul ngbDropdownMenu>
                                         <li ngbDropdownItem (click)="deleteChatMessage(this.message.id)">Delete</li>
-                                        <li ngbDropdownItem class="btn btn-lg btn-outline-primary"
+                                        <li ngbDropdownItem class="btn btn-lg btn-outline-primary editbtn"
                                             (click)="open(content)">Edit
                                         </li>
                                         <ng-template #content let-c="close" let-d="dismiss">
